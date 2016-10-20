@@ -1,0 +1,136 @@
+/*FONTS*/
+
+@font-face {
+    font-family: MyRiad;
+    src: url('../fonts/MyriadPro-Cond.otf');
+}
+
+@font-face {
+    font-family: Reklame-Script;
+    src: url('../fonts/ReklameScript-RegularDEMO.otf');
+}
+
+
+
+#top01{
+	height: 15px;
+	background:#FCAF17;
+}
+#top02{
+	background: #F15922;
+}
+#top03-lista{
+	font-family: MyRiad;
+}
+
+#top03-lista > ul > li {
+	padding: 15px;
+}
+
+#top03-lista > ul > li > a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+}
+
+#top03-lista > ul {
+	position: relative;
+	top: 30px;
+	right: 70px;
+}
+
+/*Pos-TOP*/
+
+.pos-top{
+	margin-top:0.7%;
+	background: #F0E7D6;
+	height: 468px;
+	top:10px;
+	font-family: Reklame-Script;
+}
+
+#off_15{
+/*	position: relative;
+	left: 30%;*/
+	width: 25%;
+	margin: 0 auto;
+	margin-top: 10%;
+	padding-bottom: 10px;
+}
+
+.Reklame-font {
+	font-size: 40px;
+	text-align: center;
+}
+
+.input-class{
+
+	width: 75%;
+	border-radius: 5px;
+}
+
+.col-input{
+	padding-bottom: 1%;
+}
+
+
+.btn-custom{
+	background: #F15922;
+	color:#fff;
+	font-size: 15px;
+	border-radius: 8px;
+	letter-spacing: 1px;
+}
+
+#btn-cadastrar{
+	position: relative;
+	right: 105px; 
+}
+
+#promocao{
+	text-align: center;
+	font-size: 19px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	color: #F15922;
+	position: relative;
+	left: 33px;
+	letter-spacing: 1px;
+}
+
+#firola{
+	height: 468px;
+	position: relative;
+	right: 5%;
+	left: -3%;
+}
+
+.config-border{
+	padding: 15px 30px 15px 30px;
+}
+
+.border-dashed-01{
+	border: 2px dashed #F15922;
+	border-bottom: none;
+	border-right: none;
+}
+
+.border-dashed-02{
+	border: 2px dashed #F15922;
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+}
+
+.border-dashed-03{
+	border: 2px dashed #f15922;
+	border-right: none;
+	border-top: none;
+}
+
+#vouncher{
+	background:#F16D3D;
+	height: 468px;
+	width: 45%;
+	position: relative;
+}
