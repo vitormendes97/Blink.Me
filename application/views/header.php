@@ -7,7 +7,8 @@
 	<!-- Bootstrap -->
 	<script type="text/javascript" src="<?php echo base_url('/public/bootstrap/js/bootstrap.js'); ?> " ></script>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/bootstrap/css/bootstrap.css'); ?> ">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom.css'); ?> ">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_desktop.css'); ?> ">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_mobile.css'); ?> ">
 </head>
 
 <body>

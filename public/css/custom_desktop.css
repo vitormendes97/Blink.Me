@@ -77,6 +77,7 @@
 .btn-custom{
 	background: #F15922;
 	color:#fff;
+	margin-left: 20%;
 	font-size: 15px;
 	border-radius: 8px;
 	letter-spacing: 1px;
@@ -96,13 +97,6 @@
 	position: relative;
 	left: 33px;
 	letter-spacing: 1px;
-}
-
-#firola{
-	height: 468px;
-	position: relative;
-	right: 5%;
-	left: -3%;
 }
 
 .config-border{
@@ -131,6 +125,19 @@
 #vouncher{
 	background:#F16D3D;
 	height: 468px;
-	width: 45%;
+	width: 55%;
 	position: relative;
+}
+
+
+#firola{
+	height: 468px;
+	position: relative;
+	right: 5%;
+	left: -28%;
+}
+#firola2{
+	height: 468px;
+	position: relative;
+	left: 102%;
 }

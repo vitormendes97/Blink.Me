@@ -23,7 +23,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="row">
-					<div class="col-md-6 config-border">
+					<div class="col-md-5 config-border">
 						<div class="row border-dashed-01">
 							<div class="col-md-12">
 								<img class ="img-responsive img-center"  id="off_15" src="<?php echo base_url('/public/img/15_off.png'); ?> ">
@@ -50,14 +50,21 @@
 							</div>
 
 							<div class="row border-dashed-03">
-								<div class="col-md-5 col-md-offset-2">
+								<div class="col-md-6 col-md-offset-2">
 									<p id="promocao" style="font-family: MyRiad;">Promoção por tempo <u>limitado!</u></p>
 								</div>
 							</div>
 
 						</div>
-					<div class="col-md-6" id="vouncher">
-							<img id="firola" src="<?php echo base_url('/public/img/firola2.jpg'); ?>">
+					<div class="col-md-7" id="vouncher">
+						<div class="row">
+							<div class="col-md-2">
+								<img id="firola" src="<?php echo base_url('/public/img/firola2.jpg'); ?>">
+							</div>
+							<div class="col-md-10">
+								<img id="firola2" src="<?php echo base_url('/public/img/firola_2_2.jpg'); ?>">
+							</div>
+						</div>
 					</div>
 				</div>
 	
