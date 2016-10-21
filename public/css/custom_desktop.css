@@ -10,7 +10,9 @@
     src: url('../fonts/ReklameScript-RegularDEMO.otf');
 }
 
-
+.navbar{
+	margin-bottom: 0;
+}
 
 #top01{
 	height: 15px;

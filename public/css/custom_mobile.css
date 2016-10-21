@@ -1,4 +1,120 @@
-@media (max-width: @screen-xs-max) { 
+@media only screen and (max-width: 1000px) { 
 		
+#top01{
+	height: 2.3vh;
+	background:#FCAF17;
+ }
+
+#logo{
+	width: 50%;
+	position: absolute;
+}
+
+.navbar-header{
+	background-color: #F15922;
+	background-image: url('../img/logo2.jpg');
+	background-position: center;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+	border:none;
+	background: #F15922;
+}
+
+.navhref > a{
+	color: #fff;
+}
+
+.config-border{
+	padding: 0;
+}
+.border-dashed-01{
+	border: none;
+}
+
+.border-dashed-02{
+	border: none;
+}
+.border-dashed-03{
+	border: none;
+}
+.border-dashed-04{
+	border: none;
+}
+.border-dashed-05{
+	border: none;
+}
+.border-dashed-06{
+	border: none;
+}
+.border-dashed-07{
+	border: none;
+}
+.Reklame-font {
+	font-size: 35px;
+	text-align: center;
+}
+
+.input-class{
+	width: 100%;
+}
+
+#btn-cadastrar{
+	position: relative;
+	right: 3vh;
+}
+
+.mobile-cad{
+	padding-top: 2vh;
+}
+#vouncher{
+	width: 100%;
+}
+
+#firola{
+    height: 455px;
+    position: relative;
+    top: -1px;
+    left: 1px;
+}
+
+#vouncher-p1{
+	color: #fff;
+	font-size: 33px;
+	position: relative;
+	right: 1vh;
+
+}
+#vouncher-p2{
+	color: #fff;
+	font-size: 15px;
+	font-family: MyRiad;
+	letter-spacing: 1px;
+	padding-right: 10px;
+	line-height: 22px;
+	right: 1vh;
+}
+
+
+.pull-down{
+	position: relative;
+	top: 60px;
+	margin: 0 auto;
+	left: 17px;
+}
+
+#vouncher-input{
+	top:80px;
+	width: 100%;
+	margin-right: 100px;
+}
+
+#firola2{
+	height: 468px;
+    position: relative;
+    right: 236%;
+}
 
 }
