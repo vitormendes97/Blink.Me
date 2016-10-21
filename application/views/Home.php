@@ -56,14 +56,45 @@
 							</div>
 
 						</div>
-					<div class="col-md-7" id="vouncher">
+					<div class="col-md-7 config-border" id="vouncher">
 						<div class="row">
-							<div class="col-md-2">
+							<div class="col-md-1 border-dashed-04">
 								<img id="firola" src="<?php echo base_url('/public/img/firola2.jpg'); ?>">
 							</div>
-							<div class="col-md-10">
+
+							<div class="col-md-10 border-dashed-05">
+
+								<div class="row pull-down">
+									<div class="col-md-12">
+										<p id="vouncher-p1">VOUNCHER de desconto<p>				
+									</div>
+								</div>
+
+								<div class="row pull-down" >
+									<div class="col-md-12">
+										<p id="vouncher-p2" >Preencha o nosso cadastro e seja um dos 100
+										primeiros clientes a ganhar 15% de desconto durante a primeira
+										semana de funcionamento do blink.me</p>
+									</div>
+								</div>
+
+								<div class="row pull-down vouncher-input">
+									<div class="col-md-12 border-dashed-07">
+										<input type="text" class="form-control" id="vouncher-input" name="vouncher_number">
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-1 border-dashed-06">
 								<img id="firola2" src="<?php echo base_url('/public/img/firola_2_2.jpg'); ?>">
 							</div>
+
+							</div>
+
+
+
+
 						</div>
 					</div>
 				</div>
