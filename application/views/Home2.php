@@ -78,14 +78,15 @@
 						
 						
 						<div class="row">
-							<div class=" col-lg-6 col-lg-offset-2 col-md-7 col-md-offset-1">
+							
+							<div class=" col-md-12 teste">
 								<input type="text" name="nome" placeholder="Nome" class="form-control input-class" id="form-nome"/>
 							</div>
 						</div>
 						
 												
 						<div class="row">
-							<div class=" col-lg-6 col-lg-offset-2 col-md-7 col-md-offset-1">
+							<div class=" col-md-12 teste ">
 								<input type="text" name="email" placeholder="Email" class="form-control input-class" id="form-email"/>
 							</div>
 						</div>

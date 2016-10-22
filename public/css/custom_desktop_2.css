@@ -64,13 +64,20 @@
 }
 
 .input-class{
-	width:14.5vmax;
-	margin: 0 auto;
+	/*width:14.5vw;*/
+	width: 25vmax;
+	/*margin: 0 auto;*/
 	font-family: MyRiad;
 	letter-spacing: 1px;
 	font-size: 19px;
+	margin-left: calc(100% - -404%);
 }
 
 #form-email{
 	margin-top: 0.5vmax;
 }
+
+/*.teste{*/
+/*	margin-left: calc(100% - 142px);*/
+/*}*/
+
