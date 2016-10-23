@@ -80,7 +80,7 @@
 								<div class="col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-3 col-input" >
 									<input type="email" name="nome" class="form-control input-class" required="required" placeholder="Email" style="font-family: MyRiad;font-size: 19px;">
 								</div>
-								<div class="col-md-3 col-xs-8 col-xs-offset-3 mobile-cad">
+								<div class="col-md-3 col-md-offset-0 col-lg-offset-0 col-xs-8 col-xs-offset-3 mobile-cad">
 									<button type="button" style="font-family:MyRiad" class="btn btn-default btn-custom" id="btn-cadastrar">Cadastre-se</button>
 								</div>
 							</div>

@@ -63,7 +63,7 @@
 
 #btn-cadastrar{
 	position: relative;
-	right: 3vh;
+	right: 1vh;
 }
 
 .mobile-cad{
@@ -77,7 +77,7 @@
     height: 455px;
     position: relative;
     top: -1px;
-    left: 1px;
+    left: 0px;
 }
 
 #vouncher-p1{
@@ -113,8 +113,8 @@
 
 #firola2{
 	height: 468px;
-    position: relative;
-    right: 236%;
+    left: -7px;
+    top:0;
 }
 
 }
