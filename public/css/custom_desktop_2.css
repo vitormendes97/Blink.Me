@@ -10,6 +10,10 @@
     src: url('../fonts/ReklameScript-RegularDEMO.otf');
 }
 
+body{
+	font-size: 19px;
+}
+
 .topo-01{
 	background:#FCAF17;
 	height: 3vh;
@@ -63,21 +67,45 @@
 	font-size: 40px;
 }
 
+#cadastrar{
+	/*margin-top: 0.5vmax;*/
+	position : relative;
+	top: 0.5vmax;
+	right: 3.7vmax;
+}
+
+#p_promo{
+	color: #F15922;
+	font-family: MyRiad;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-top: 3.6vmax;
+	margin-right: calc(100% - 83%);
+}
+
+.btn-custom{
+	background : #F15922;
+	font-size: 15px;
+	border-radius: 8px;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
 .input-class{
-	/*width:14.5vw;*/
-	width: 25vmax;
-	/*margin: 0 auto;*/
 	font-family: MyRiad;
 	letter-spacing: 1px;
 	font-size: 19px;
-	margin-left: calc(100% - -404%);
+	width:15vmax;
+	/*margin-left: calc(100% - 423px);*/
+}
+
+#form-nome{
+	margin-left: calc(100% - 77.5%);
 }
 
 #form-email{
 	margin-top: 0.5vmax;
+	margin-left: calc(100% - 65.3%);
 }
-
-/*.teste{*/
-/*	margin-left: calc(100% - 142px);*/
-/*}*/
 
