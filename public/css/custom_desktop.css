@@ -1,230 +1,3 @@
-/*FONTS*/
-
-/*@font-face {*/
-/*    font-family: MyRiad;*/
-/*    src: url('../fonts/MyriadPro-Cond.otf');*/
-/*}*/
-
-/*@font-face {*/
-/*    font-family: Reklame-Script;*/
-/*    src: url('../fonts/ReklameScript-RegularDEMO.otf');*/
-/*}*/
-
-/*.navbar{*/
-/*	margin-bottom: 0;*/
-/*}*/
-
-/*#top01{*/
-/*	height: 15px;*/
-/*	background:#FCAF17;*/
-/*}*/
-/*#top02{*/
-/*	background: #F15922;*/
-/*}*/
-/*#top03-lista{*/
-/*	font-family: MyRiad;*/
-/*}*/
-
-/*#top03-lista > ul > li {*/
-/*	padding: 15px;*/
-/*}*/
-
-/*#top03-lista > ul > li > a{*/
-/*	text-decoration: none;*/
-/*	color: #fff;*/
-/*	font-size: 22px;*/
-/*}*/
-
-/*#top03-lista > ul {*/
-/*    margin-top: 20px;*/
-/*}*/
-
-/*Pos-TOP*/
-
-/*.pos-top{*/
-/*	margin-top:0.7%;*/
-/*	background: #F0E7D6;*/
-/*	height: 469px;*/
-/*	min-height: 469px;*/
-/*	top:10px;*/
-/*	font-family: Reklame-Script;*/
-/*}*/
-
-/*#off_15{*/
-/*	position: relative;
-	left: 30%;*/
-/*	width: 39%;*/
-/*	margin: 0 auto;*/
-/*	margin-top: 10%;*/
-/*	padding-bottom: 10px;*/
-/*}*/
-
-/*.Reklame-font {*/
-/*	font-size: 40px;*/
-/*	text-align: center;*/
-/*}*/
-
-/*.input-class{*/
-
-/*	width: 38%;*/
-/*	border-radius: 5px;*/
-/*}*/
-
-/*.col-input{*/
-/*	padding-bottom: 1%;*/
-/*	left: 19%;*/
-/*}*/
-
-
-/*.btn-custom{*/
-/*	background: #F15922;*/
-/*	color:#fff;*/
-/*	margin-left: 20%;*/
-/*	font-size: 15px;*/
-/*	border-radius: 8px;*/
-/*	letter-spacing: 1px;*/
-/*}*/
-
-/*#btn-cadastrar{*/
-/*	position: relative;*/
-/*	right: 19%; */
-/*}*/
-
-/*#promocao{*/
-/*	text-align: center;*/
-/*	font-size: 19px;*/
-/*	padding-top: 16px;*/
-/*	padding-bottom: 13px;*/
-/*	color: #F15922;*/
-/*	letter-spacing: 1px;*/
-/*}*/
-
-/*.config-border{*/
-/*    padding: 15px 30px 15px 10px;*/
-/*}*/
-
-/*.border-dashed-01{*/
-/*    border: 2px dashed #F15922;*/
-/*    border-bottom: none;*/
-/*    border-right: none;*/
-/*}*/
-
-/*.border-dashed-02 {*/
-/*    border: 2px dashed #F15922;*/
-/*    border-bottom: none;*/
-/*    border-top: none;*/
-/*    border-right: none;*/
-/*}*/
-
-/*.border-dashed-03{*/
-/*	border: 2px dashed #f15922;*/
-/*	border-right: none;*/
-/*	border-top: none;*/
-/*}*/
-
-/*#vouncher{*/
-/*    background: #F16D3D;*/
-/*    height: 450px;*/
-    /* width: 56%; */
-/*    position: relative;*/
-/*}*/
-
-
-/*#firola{*/
-/*	height: 470px;*/
-/*	position: relative;*/
-/*	right: 5%;*/
-/*	top:-18px;*/
-/*	left: -137%;*/
-/*}*/
-/*#firola2{*/
-/*	height: 469px;*/
-/*	position: relative;*/
-/*	top: -17px;*/
-/*	left: 180%;*/
-/*}*/
-
-/*#vouncher-p1{*/
-/*	color: #fff;*/
-/*	font-size: 4.5em;*/
-/*}*/
-
-
-/*#vouncher-p2{*/
-/*	color: #fff;*/
-/*	font-size: 1.8em;*/
-/*	font-family: MyRiad;*/
-/*	letter-spacing: 1px;*/
-/*	padding-right: 10%;*/
-/*	line-height: 22px;*/
-/*}*/
-/*.pull-down{*/
-/*	position: relative;*/
-/*	top: 100px;*/
-/*	margin: 0 auto;*/
-/*	left: 17px;*/
-/*}*/
-
-/*.vouncher-input{*/
-/*	top:126px;*/
-/*}*/
-
-/*#vouncher-input{*/
-/*	margin : 0 auto;*/
-/*	width: 73%;*/
-/*	background: #F15922;*/
-/*	border:none;*/
-/*	font-family: myRiad;*/
-/*	color:#fff;*/
-/*	font-size: 19px;*/
-/*	text-align: center;*/
-/*}*/
-
-/*.border-dashed-04{*/
-/*	border:2px dashed #F0E7D6;*/
-/*	border-right: none;*/
-/*	border-left: none; */
-/*}*/
-
-/*.border-dashed-05{*/
-/*	border:2px dashed #F0E7D6;*/
-/*	border-bottom: none;*/
-/*	border-left: none;*/
-/*	border-right: none;*/
-/*}*/
-
-/*.border-dashed-06{*/
-/*	border:2px dashed #F0E7D6;*/
-/*	border-bottom: none;*/
-/*	border-left: none;*/
-/*}*/
-
-/*.border-dashed-07{*/
-/*	border:2px dashed #F0E7D6;*/
-/*	border-top: none;*/
-/*	border-left: none;*/
-/*	border-right: none;*/
-/*	padding-bottom: 79px;*/
-/*	border-bottom-width: 100%;*/
-/*}*/
-
-/*#input-email{*/
-/*	display: inline;*/
-/*}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*FONTS*/
 
@@ -236,6 +9,10 @@
 @font-face {
     font-family: Reklame-Script;
     src: url('../fonts/ReklameScript-RegularDEMO.otf');
+}
+
+body{
+	background-color:  #F4F4F4;
 }
 
 .navbar{
@@ -395,4 +172,71 @@
 
 #input-email{
 	display: inline;
+}
+
+#black-bar{
+	width: 100%;
+}
+
+#pos-carousel{
+	height: 100%;
+	background-color: #F38761;
+}
+
+#pos-carousel > .row > .col-md-12 > p{
+	
+	font-family: MyRiad;
+	color: #fff;
+	font-size: 29px;
+	text-align: center;
+}
+
+#circle-content{
+	width: 88%;
+    margin-left: 6%;
+}
+
+.circle-content-list{
+	text-align: center;
+    font-size: 29px;
+    color: #fff;
+    font-family: MyRiad;
+}
+
+#blinkmeclub{
+	margin-left: 17%;
+    width: 33%;
+    margin-top: 7%;
+}
+
+#circle_thumb{
+	margin-left: 64%;
+    width: 64%;
+}
+
+#circle_desc{
+	margin-left: 13%;
+    margin-top: 7%;
+    color: #969698;
+}
+
+#circle_desc_2{
+	color: #969698;
+	margin-left: 21%;
+    margin-top: 5%;
+}
+
+.vantagens{
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 7.7%;
+}
+
+.ph{
+	margin-top: 4%;
+}
+.ph > p{
+	font-size: 19px;
+	margin-left: 13%;
+	
 }

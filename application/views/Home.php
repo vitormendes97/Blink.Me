@@ -66,7 +66,7 @@
          <div class="container-fluid pos-top">
             <div class="row">
       
-          	<div class="col-md-6 config-border">
+          	<div class="col-md-5 config-border">
            			<div class="row">
            				<div class="col-md-12 borda">
            					<div class="row">
@@ -106,11 +106,201 @@
           
                	</div>
                	
-               	<div class="col-md-6 config-border" style="background:#F15922;">
-               		
+               	<div class="col-md-7 config-border" style="background:#F15922; height:469px;">
+                        
                	</div>
             </div>
          </div>
+         <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-12" style="background : #B1ACA6; height: 30px;margin-top:1%;">
+               
+            </div>
+         </div>
+         
+         <div class="row">
+            <div class="col-md-12" style="padding: 0;">
+               <img id="black-bar" src="<?php echo base_url('/public/img/black-bar.jpg'); ?> ">
+            </div>
+         </div>
+         
+      </div>
+      <!--CAROUSEL-->
+      <div class="container-fluid" style="padding:0;margin-top:1%;">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="<?php echo base_url('/public/img/banner1.jpg'); ?>" alt="...">
+      <div class="carousel-caption"></div>
+    </div>
+    <div class="item">
+      <img src="<?php echo base_url('/public/img/banner2.jpg'); ?>" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+   
+    <div class="item">
+      <img src="<?php echo base_url('/public/img/banner3.jpg'); ?>" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+   
+    <div class="item">
+      <img src="<?php echo base_url('/public/img/banner4.jpg'); ?>" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+   
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      </div>
+      
+      <div class="container-fluid" id="pos-carousel">
+         <div class="row" style="margin-top:3%;">
+            <div class="col-md-12">
+               <p id=>BLINK.ME. UM MERGULHO NO MUNDA DA BELEZA</p>
+            </div>
+         </div>
+         
+         <div class="row">
+            <div class="col-md-12" >
+               <img src="<?php echo base_url('/public/img/circle-content.jpg'); ?>" id="circle-content"></img>
+            </div>
+         </div>
+         
+        <div class="row">
+         <div class="col-md-12">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-3">
+                        <p class="circle-content-list">COSMETICS</p>
+                     </div>
+                 
+               
+                     <div class="col-md-3">
+                        <p class="circle-content-list">ATELIER BEAUTY</p>
+                     </div>
+          
+                     <div class="col-md-3">
+                        <p class="circle-content-list">LAB</p>
+                     </div>
+ 
+                     <div class="col-md-3">
+                        <p class="circle-content-list">STUDIO</p>
+                     </div>
+                   </div>
+               </div>
+         </div>
+      </div>
+      
+   </div>
+      
+      <div class="container-fluid" style="background:#F4F4F4;">
+         
+         <div class="row">
+            <div class="col-md-12">
+               <div class="row">
+                  <div class="col-md-7">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <img id="blinkmeclub" src="<?php echo base_url('/public/img/blinkmeclub.jpg'); ?> "></img>
+                        </div>
+                     </div>
+                     
+                     <div class="row">
+                        <div class="col-md-4">
+                           <img id="circle_thumb" src="<?php echo base_url('/public/img/circle-thumb.jpg'); ?> "></img>
+                        </div>
+                        
+                        <div class="col-md-8">
+                           <p id="circle_desc">Toda mulher nasce VIP, mas o blink.me club é a materialização disso.
+                           Cada mulher associada do blink.me terá acesso a uma área totalmente personalizada
+                           do site que, quando logada, traz assuntos específicos sobre o mundo dela.</p>
+                        </div>
+                     </div>
+                     
+                     <div class="row">
+                        <div class="col-md-12">
+                           <p id="circle_desc_2">Tenho um orgulho imenso desse serviço e trabalhamos com a certeza de que você terá
+                           sempre vantagens e conforto únicos. Prepare-se</p>
+                        </div>
+                     </div>
+                     
+                  </div>
+                  
+                  <div class="col-md-5 vantagens">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <p>VANTAGENS</p>
+                               <dl class="dl-horizontal">
+                                   <dt>teste</dt>
+                                   <dd>1</dd>
+                                 </dl>
+                           </div>
+                        </div>
+                        
+                        <div class="row">
+                           <div class="col-md-12">
+                              <dl class="dl-horizontal">
+                                   <dt>teste</dt>
+                                   <dd>1</dd>
+                                 </dl>
+                           </div>
+                        </div>
+                  </div>
+               </div>
+               
+               
+               
+               
+            </div>
+         </div>
+         
+      </div>
+      
+      
+      <div class="row">
+         <div class="col-md-12" style="background:#FCAF17; height:5px;margin-top:6%;"></div>
+      </div>
+      <div class="row">
+         <div class="col-md-12" style="background:#F15922;height: 15px;"></div>
+      </div>
+      
+      <div class="row">
+         <div class="col-md-12 ph">
+            <p>Esse é o momento para você que se reiventa todo dia.</p>
+            <p>É para você que gosta de um visual clássico, mas sabe o momento de dar um corte novo nos cabelos.</p>
+            <p>É para você que, antes de chamar os convidados para festa, passa um rímel nos olhos e visita segredos escondidos em certezas só suas.</p>
+            <p>É para você que tem mil belezas. E percebe o brilho de em um único dia ter mil facetas.</p>
+            <p>É para você que sabe o momento de passar um blush e entende o poder de um batom, de um sorriso, de um novo tom.</p>
+            <p>É para você que não se intimida com o corre-corre da vida e pinta as unhas toda semana para dar os melhores abraços e os melhores apertos de mão</p>
+            <p>É para você que não se abala quando as coisas dão errado. Quando isso acontece, você passa seu melhor perfume e olha adiante com firmeza, sem perder o gingado.</p>
+            <p>É para você que, em nome da elegância, sabendo que não é heroína, se faz mulher.
+            Afinal, ser mulher reúne mais que momentos heróicos.
+            Reúne os melhores momentos.</p>
+            
+            <p>blink.me. O seu momento.</p>
+         </div>
+      </div>
+      
       </header>
    </body>
 </html>
