@@ -176,7 +176,7 @@
       <div class="container-fluid" id="pos-carousel">
          <div class="row" style="margin-top:3%;">
             <div class="col-md-12">
-               <p id=>BLINK.ME. UM MERGULHO NO MUNDA DA BELEZA</p>
+               <p id=>BLINK.ME. UM MERGULHO NO MUNDO DA BELEZA</p>
             </div>
          </div>
          
@@ -250,21 +250,32 @@
                         <div class="row">
                            <div class="col-md-12">
                               <p>VANTAGENS</p>
-                               <dl class="dl-horizontal">
-                                   <dt>teste</dt>
-                                   <dd>1</dd>
+                               <dl class="dl-horizontal lista-vertical" style="background: blue; padding:4%;margin-bottom: 0;">
+                                   <dt>></dt>
+                                   <dd>Some Text</dd>
                                  </dl>
+                                 
+                                 <dl class="dl-horizontal lista-vertical" style="background: pink; padding:4%;margin-bottom:0;">
+                                   <dt>></dt>
+                                   <dd>Some Text Two</dd>
+                                 </dl>
+                                 
+                                 <dl class="dl-horizontal lista-vertical" style="background: yellow; padding:4%;">
+                                   <dt>></dt>
+                                   <dd>Some Text Two</dd>
+                                 </dl>
+                               
                            </div>
                         </div>
                         
-                        <div class="row">
-                           <div class="col-md-12">
-                              <dl class="dl-horizontal">
-                                   <dt>teste</dt>
-                                   <dd>1</dd>
-                                 </dl>
-                           </div>
-                        </div>
+                        <!--<div class="row">-->
+                        <!--   <div class="col-md-12">-->
+                        <!--      <dl class="dl-horizontal">-->
+                        <!--           <dt>teste</dt>-->
+                        <!--           <dd>1</dd>-->
+                        <!--         </dl>-->
+                        <!--   </div>-->
+                        <!--</div>-->
                   </div>
                </div>
                

@@ -240,3 +240,13 @@ body{
 	margin-left: 13%;
 	
 }
+
+.lista-vertical > dt{
+	text-align: left;
+	width: 4%;
+	margin: 0;
+}
+.lista-vertical > dd{
+	text-align: left;
+	margin-left: 0;
+}
