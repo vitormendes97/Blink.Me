@@ -273,7 +273,7 @@
                   <div class="col-md-5 vantagens">
                         <div class="row">
                            <div class="col-md-12">
-                              <p style="color:#000;" id="vantagens">VANTAGENS</p>
+                              <p style="color:#000;font-size:20px;" id="vantagens">VANTAGENS</p>
                                <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;margin-bottom: 0; width:62%;">
                                    <dt style="color:#fff;">></dt>
                                    <dd>15% DE DESCONTO EM TODA LOJA</dd>
@@ -358,16 +358,26 @@
                        <div class="col-md-12 footer-p">
                           <p id="endereco">Av.Giovanni Gronchi,5930 - Vila Andrade, São Paulo - SP | Morumbi Town</p>
                           <p id="piso">1º Piso | 11 2503.9527</p>
-                          <p>EM BREVE</p>
+                          <p id="breve">EM BREVE</p>
                        </div>
                     </div>
                     
-                    <div class="row">
+                    <div class="row visible-sm visible-md visible-lg">
                        <div class="col-md-12">
                           <ul class="list-inline">
                              <li><a href="#"> <img id="google-play" src="<?php echo base_url('/public/img/google_store.jpg');  ?> "></img></a></li>
                              <li><a href="#"> <img id="ios-store" src="<?php echo base_url('/public/img/ios_store.jpg');  ?> "></img></a></li>
                           </ul>
+                       </div>
+                    </div>
+                    
+                    <div class="row visible-xs">
+                       <div class="col-xs-6">
+                          <img id="google-play" class="pull-right" src="<?php echo base_url('/public/img/google_store.jpg');  ?> ">
+                       </div>
+                       
+                        <div class="col-xs-6">
+                          <img id="ios-store" src="<?php echo base_url('/public/img/ios_store.jpg');  ?> ">
                        </div>
                     </div>
                  </div>

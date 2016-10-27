@@ -160,6 +160,58 @@ dl{
 #vantagens{
 	text-align: center;
 }
+
+#col-cosmetics{
+	margin-left: 0;
+}
+
+#col-atelier{
+	margin-left: 0;
+}
+
+#col-lab{
+	margin-left: 0;
+}
+
+#col-studio{
+	margin-left: 0;
+}
+
+	#circle-cosmetics{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-atelier{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-lab{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+#circle-studio{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#endereco {
+     line-height: 1; 
+     text-align: center;
+}
+#piso{
+	text-align: center;
+}
+
+#breve{
+	text-align: center;
+}
+#ios-store {
+    width: 73%;
+    margin-top: 1.8%;
+    margin-left: -3%;
+}
 }
 
 
