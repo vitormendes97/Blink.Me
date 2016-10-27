@@ -16,7 +16,7 @@
       <header>
          <!-- Topo -->
          <nav class="navbar navbar-default visible-xs visible-sm">
-            <div class="container-fluid">
+            <div class="container-fluid col-sm-fluid">
                <!-- Brand and toggle get grouped for better mobile display -->
                <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="background-color: #F15922;">
@@ -53,7 +53,7 @@
                   </div>
                   <div class="col-md-9" id="top03-lista" style="text-align: right;">
                      <ul class="list-inline">
-                        <li><a href="#">BLINK ME CLUB</a></li>
+                        <li><a href="#carousel">BLINK ME CLUB</a></li>
                         <li><a href="#">MANIFESTO</a></li>
                         <li><a href="#">MORUMBI TOWN</a></li>
                         <li><a href="#">CONTATO</a></li>
@@ -77,7 +77,7 @@
            					
            					<div class="row">
            						<div class="col-md-12">
-           					 		<p class="Reklame-font">Vem ai um momento único</p>
+           					 		<p class="Reklame-font" style="color:#000;">Vem ai um momento único</p>
            						</div>
            					</div>
            					
@@ -95,7 +95,7 @@
            					</div>
            					
            					<div class="row">
-           						<div class="col-md-12">
+           						<div class="col-md-12" style="padding-bottom:4%;">
            							<p id="promocao">Promoção por tempo <u>limitado!</u></p>
            						</div>
            					</div>
@@ -106,8 +106,12 @@
           
                	</div>
                	
-               	<div class="col-md-7 config-border" style="background:#F15922; height:469px;">
-                        
+               	<div class="col-md-7 " style="background:#F15922; height:469px;">
+                        <div class="row">
+                           <div class="col-md-1">
+                               <!--<img class="img-responsive" id="firola1" src="<?php echo base_url('/public/img/firola.jpg'); ?>">-->
+                           </div>
+                        </div>
                	</div>
             </div>
          </div>
@@ -129,7 +133,7 @@
       <div class="container-fluid" style="padding:0;margin-top:1%;">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
   <!-- Indicators -->
-  <ol class="carousel-indicators">
+  <ol class="carousel-indicators" >
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -180,36 +184,56 @@
             </div>
          </div>
          
+         <!--<div class="row">-->
+         <!--   <div class="col-md-12" >-->
+         <!--      <img src="<?php echo base_url('/public/img/circle-content.jpg'); ?>" id="circle-content"></img>-->
+         <!--   </div>-->
+         <!--</div>-->
+         
          <div class="row">
-            <div class="col-md-12" >
-               <img src="<?php echo base_url('/public/img/circle-content.jpg'); ?>" id="circle-content"></img>
+            <div class="col-md-12">
+               <div class="row">
+                  <div class="col-md-3">
+                     <img id="circle-cosmetics"src="<?php echo base_url('/public/img/Cosmetics.jpg'); ?> " class="img-responsive circle-img"></img>
+                     <div class="row">
+                        <div class="col-md-12" id="col-cosmetics" >
+                           <p class="circle-content-p">COSMETICS</p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="col-md-3">
+                     <img id="circle-atelier"src="<?php echo base_url('/public/img/Atelier.jpg'); ?> " class="img-responsive circle-img"></img>
+                      <div class="row">
+                        <div class="col-md-12" id="col-atelier">
+                           <p class="circle-content-p">ATELIER BEAUTY</p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="col-md-3">
+                     <img id="circle-lab"src="<?php echo base_url('/public/img/LAB.jpg'); ?> " class="img-responsive circle-img"></img>
+                     <div class="row">
+                        <div class="col-md-12" id="col-lab" >
+                           <p class="circle-content-p">LAB</p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="col-md-3">
+                     <img id="circle-studio"src="<?php echo base_url('/public/img/other.jpg'); ?> " class="img-responsive circle-img"></img>
+                      <div class="row">
+                        <div class="col-md-12" id="col-studio">
+                           <p class="circle-content-p">STUDIO</p>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
             </div>
          </div>
          
-        <div class="row">
-         <div class="col-md-12">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-3">
-                        <p class="circle-content-list">COSMETICS</p>
-                     </div>
-                 
-               
-                     <div class="col-md-3">
-                        <p class="circle-content-list">ATELIER BEAUTY</p>
-                     </div>
-          
-                     <div class="col-md-3">
-                        <p class="circle-content-list">LAB</p>
-                     </div>
- 
-                     <div class="col-md-3">
-                        <p class="circle-content-list">STUDIO</p>
-                     </div>
-                   </div>
-               </div>
-         </div>
-      </div>
+         
       
    </div>
       
@@ -249,33 +273,24 @@
                   <div class="col-md-5 vantagens">
                         <div class="row">
                            <div class="col-md-12">
-                              <p>VANTAGENS</p>
-                               <dl class="dl-horizontal lista-vertical" style="background: blue; padding:4%;margin-bottom: 0;">
-                                   <dt>></dt>
-                                   <dd>Some Text</dd>
+                              <p style="color:#000;" id="vantagens">VANTAGENS</p>
+                               <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;margin-bottom: 0; width:62%;">
+                                   <dt style="color:#fff;">></dt>
+                                   <dd>15% DE DESCONTO EM TODA LOJA</dd>
                                  </dl>
                                  
-                                 <dl class="dl-horizontal lista-vertical" style="background: pink; padding:4%;margin-bottom:0;">
-                                   <dt>></dt>
-                                   <dd>Some Text Two</dd>
+                                 <dl class="dl-horizontal lista-vertical" style="background: #F28761; padding:4%;margin-bottom:0;width:62%;">
+                                   <dt style="color:#fff;">></dt>
+                                   <dd>PROMOÇÕES EXCLUSIVAS</dd>
                                  </dl>
                                  
-                                 <dl class="dl-horizontal lista-vertical" style="background: yellow; padding:4%;">
-                                   <dt>></dt>
-                                   <dd>Some Text Two</dd>
+                                 <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;width:62%;">
+                                   <dt style="color:#fff;">></dt>
+                                   <dd>SERVIÇOS DE CASHBACK</dd>
                                  </dl>
                                
                            </div>
                         </div>
-                        
-                        <!--<div class="row">-->
-                        <!--   <div class="col-md-12">-->
-                        <!--      <dl class="dl-horizontal">-->
-                        <!--           <dt>teste</dt>-->
-                        <!--           <dd>1</dd>-->
-                        <!--         </dl>-->
-                        <!--   </div>-->
-                        <!--</div>-->
                   </div>
                </div>
                
@@ -289,10 +304,10 @@
       
       
       <div class="row">
-         <div class="col-md-12" style="background:#FCAF17; height:5px;margin-top:6%;"></div>
+         <div class="col-md-12 col-xs-12" style="background:#FCAF17; height:5px;margin-top:6%;"></div>
       </div>
       <div class="row">
-         <div class="col-md-12" style="background:#F15922;height: 15px;"></div>
+         <div class="col-md-12 col-xs-12" style="background:#F15922;height: 15px;"></div>
       </div>
       
       <div class="row">
@@ -312,6 +327,54 @@
          </div>
       </div>
       
+      <div class="container-fluid banner_2">
+         <div class="row">
+            <div class="col-md-7">
+               <div class="row">
+                  <div class="col-md-12 morumbi-town">
+                     <p>MORUMBI TOWN</p>
+                     <p>Central, bem localizado e com um conceito exclusivo de um dos maiores grupos de shoppings do mundo, 
+                      o Morumbi Town combina perfeitamente com a blink.me. Atrai não apenas os moradores da região, mas também estudantes e 
+                      profissionais que vivem ao redor do local.</p>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="col-md-5">
+               
+            </div>
+         </div>
+      </div>
+      
+      
+      <footer>
+         <div class="container-fluid footer">
+              <div class="row">
+                 <div class="col-md-6" style="background:#EB4610;">
+                    <img id="logo-footer" src="https://blinkme-vitormendes97.c9users.io/public/img/banner_footer.jpg" class="img-responsive"></img>
+                 </div>
+                 <div class="col-md-6">
+                    <div class="row">
+                       <div class="col-md-12 footer-p">
+                          <p id="endereco">Av.Giovanni Gronchi,5930 - Vila Andrade, São Paulo - SP | Morumbi Town</p>
+                          <p id="piso">1º Piso | 11 2503.9527</p>
+                          <p>EM BREVE</p>
+                       </div>
+                    </div>
+                    
+                    <div class="row">
+                       <div class="col-md-12">
+                          <ul class="list-inline">
+                             <li><a href="#"> <img id="google-play" src="<?php echo base_url('/public/img/google_store.jpg');  ?> "></img></a></li>
+                             <li><a href="#"> <img id="ios-store" src="<?php echo base_url('/public/img/ios_store.jpg');  ?> "></img></a></li>
+                          </ul>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+         </div>
+      </footer>
+
       </header>
    </body>
 </html>

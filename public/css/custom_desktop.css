@@ -13,6 +13,9 @@
 
 body{
 	background-color:  #F4F4F4;
+	font-family: MyRiad;
+	font-size: 19px;
+	color: #fff;
 }
 
 .navbar{
@@ -203,6 +206,9 @@ body{
     font-family: MyRiad;
 }
 
+
+}
+
 #blinkmeclub{
 	margin-left: 17%;
     width: 33%;
@@ -212,11 +218,12 @@ body{
 #circle_thumb{
 	margin-left: 64%;
     width: 64%;
+    margin-top: 10%;
 }
 
 #circle_desc{
 	margin-left: 13%;
-    margin-top: 7%;
+    margin-top: 12%;
     color: #969698;
 }
 
@@ -228,7 +235,7 @@ body{
 
 .vantagens{
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 	margin-top: 7.7%;
 }
 
@@ -238,7 +245,7 @@ body{
 .ph > p{
 	font-size: 19px;
 	margin-left: 13%;
-	
+	color: #000;
 }
 
 .lista-vertical > dt{
@@ -250,3 +257,84 @@ body{
 	text-align: left;
 	margin-left: 0;
 }
+
+.circle-img{
+	width: 100%;
+}
+
+#circle-cosmetics{
+	margin-left: 14%;
+}
+
+#circle-atelier{
+	margin-left: 2%;
+}
+
+#circle-lab{
+	margin-left: -13%;
+}
+
+#circle-studio{
+	margin-left: -22%;
+}
+
+.circle-content-p{
+	font-family: myRiad;
+	font-size: 24px;
+	color:#fff;
+	text-align: center;
+}
+
+.footer{
+	background-color: #ED4810;
+}
+
+#logo-footer {
+    width: 53%;
+    margin: 0 auto;
+}
+
+.footer-p {
+	margin-top: 10%;
+}
+
+#endereco{
+	line-height: 0px;
+}
+
+#google-play{
+	width: 70%;
+}
+
+#ios-store{
+	width: 70%;
+	margin-left: -26%;
+}
+
+.banner_2{
+	background-image: url('../img/banner_2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 507px;;
+}
+
+.morumbi-town > p{
+	text-align: center;
+}
+
+#col-cosmetics{
+	margin-left: 14%;
+}
+
+#col-atelier{
+	margin-left: 2%;
+}
+
+#col-lab{
+	margin-left: -13%;
+}
+
+#col-studio{
+	margin-left: -22%;
+}
+

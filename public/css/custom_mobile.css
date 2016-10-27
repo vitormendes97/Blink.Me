@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px) { 
+@media only screen and (max-width: 767px) { 
 		
 #top01{
 	height: 2.3vh;
@@ -27,43 +27,19 @@
 	color: #fff;
 }
 
-.config-border{
-	padding: 0;
-}
-.border-dashed-01{
-	border: none;
-}
-
-.border-dashed-02{
-	border: none;
-}
-.border-dashed-03{
-	border: none;
-}
-.border-dashed-04{
-	border: none;
-}
-.border-dashed-05{
-	border: none;
-}
-.border-dashed-06{
-	border: none;
-}
-.border-dashed-07{
-	border: none;
-}
 .Reklame-font {
 	font-size: 35px;
 	text-align: center;
 }
 
 .input-class{
-	width: 100%;
+    width: 57%;
+    margin-left: 20%;
 }
 
 #btn-cadastrar{
-	position: relative;
-	right: 1vh;
+	margin-left: 37%;
+    margin-top: 5%;
 }
 
 .mobile-cad{
@@ -117,4 +93,142 @@
     top:0;
 }
 
+#promocao{
+    margin-right: 2%;
+}
+
+#pos-carousel > .row > .col-md-12 > p{
+	font-size: 17px;
+}
+
+
+.circle-content-list {
+    font-size: 18px;
+    text-align: left;
+}
+
+#circle-content{
+	width: 110%;
+	margin-left: -16px;
+}
+
+#blinkmeclub {
+	margin-left: 30%;
+    width: 40%;
+    margin-top: 7%;
+}
+
+#circle_thumb {
+    margin-left: 26%;
+    width: 50%;
+}
+
+#circle_desc{
+	margin-left: 4%;
+}
+
+#circle_desc_2 {
+    margin-left: 4%;
+}
+
+.ph > p {
+     margin-left: 7%;
+    font-size: 16px;
+    padding: 5%;
+
+}
+
+.borda {
+    border-left: none;
+}
+
+dt,dl{
+	font-size: 16px;
+}
+
+dt {
+	margin-right: 7%;
+}
+
+dl{
+    background: #F2A68B;
+    padding: 4%;
+    width: 62%;
+    margin: 0 auto;
+}
+
+#vantagens{
+	text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px) and (min-width: 768px){
+	
+	.navbar-header{
+		background-color: #F15922;
+		background-image: url('../img/logo2.jpg');
+		background-position: center;
+		background-size: contain;
+	    background-repeat: no-repeat;
+	    width: 39%;
+}
+	.col-sm-fluid{
+		background-color: #F15922;
+	}
+	
+	#circle-cosmetics{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-atelier{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-lab{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+
+#circle-studio{
+	margin-left: 0%;
+	margin: 0 auto;
+}
+	.circle-img {
+    width: 45%;
+   
+}
+
+#col-cosmetics{
+	margin-left: 0;
+}
+
+#col-atelier{
+	margin-left: 0;
+}
+
+#col-lab{
+	margin-left: 0;
+}
+
+#col-studio{
+	margin-left: 0;
+}
+
+#circle_thumb {
+    margin-left: 30%;
+    width: 30%;
+    margin-top: 10%;
+}
 }
