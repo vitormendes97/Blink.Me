@@ -1,5 +1,21 @@
-<html>
-   <head>
+<html><head>
+	<title>BlinkMe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<!-- Bootstrap -->
+	<script type="text/javascript" src="https://blinkme-vitormendes97.c9users.io/public/bootstrap/js/bootstrap.js "></script>
+	<script type="text/javascript" src="https://blinkme-vitormendes97.c9users.io/public/js/function.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://blinkme-vitormendes97.c9users.io/public/bootstrap/css/bootstrap.css ">
+	<link rel="stylesheet" type="text/css" href="https://blinkme-vitormendes97.c9users.io/public/css/custom_desktop.css ">
+	<link rel="stylesheet" type="text/css" href="https://blinkme-vitormendes97.c9users.io/public/css/custom_mobile.css ">
+	<!--<link rel="stylesheet" type="text/css" href="https://blinkme-vitormendes97.c9users.io/public/css/custom_large.css ">-->
+	<link rel="stylesheet" type="text/css" href="https://blinkme-vitormendes97.c9users.io/public/fontawsome/css/font-awesome.css ">
+</head>
+
+<body>
+   
       <title>BlinkMe</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Jquery -->
@@ -11,8 +27,8 @@
       <link rel="stylesheet" type="text/css" href="https://blinkme-vitormendes97.c9users.io/public/css/custom_mobile.css ">
       <!--<link rel="stylesheet" type="text/css" href="https://blinkme-vitormendes97.c9users.io/public/css/custom_large.css ">-->
       <link rel="stylesheet" type="text/css" href="https://blinkme-vitormendes97.c9users.io/public/fontawsome/css/font-awesome.css ">
-   </head>
-   <body>
+   
+   
       <header>
          <!-- Topo -->
          <nav class="navbar navbar-default visible-xs visible-sm">
@@ -66,7 +82,7 @@
          <div class="container-fluid pos-top">
             <div class="row">
       
-          	<div class="col-md-5 config-border">
+          	<div class="col-md-5 config-border" style="padding-left: 4.5%;">
            			<div class="row">
            				<div class="col-md-12 borda">
            					<div class="row">
@@ -106,12 +122,21 @@
           
                	</div>
                	
-               	<div class="col-md-7 " style="background:#F15922; height:469px;">
-                        <div class="row">
-                           <div class="col-md-1">
-                               <!--<img class="img-responsive" id="firola1" src="<?php echo base_url('/public/img/firola.jpg'); ?>">-->
-                           </div>
+               	<div class="col-md-6 " style="height:469px;position: relative;background: url(https://blinkme-vitormendes97.c9users.io/public/img/firola.jpg) no-repeat #f16d3d;">
+                        <div style="height: 100%;border: 2px dashed;margin: 20px;">
                         </div>
+                        
+                        <div class="col-md-12">
+                           <p></p>
+                        </div>
+               	</div>
+               	
+               	<div class="col-md-1" style="    height: 469px;
+    position: relative;
+    background: url(https://blinkme-vitormendes97.c9users.io/public/img/firola_2_2.jpg) no-repeat #f16d3d;
+    background-color: #F0E7D6;
+}">
+               	   
                	</div>
             </div>
          </div>
@@ -124,41 +149,41 @@
          
          <div class="row">
             <div class="col-md-12" style="padding: 0;">
-               <img id="black-bar" src="<?php echo base_url('/public/img/black-bar.jpg'); ?> ">
+               <img id="black-bar" src="https://blinkme-vitormendes97.c9users.io/public/img/black-bar.jpg ">
             </div>
          </div>
          
       </div>
       <!--CAROUSEL-->
       <div class="container-fluid" style="padding:0;margin-top:1%;">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
-  <ol class="carousel-indicators" >
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="<?php echo base_url('/public/img/banner1.jpg'); ?>" alt="...">
+    <div class="item">
+      <img src="https://blinkme-vitormendes97.c9users.io/public/img/banner1.jpg" alt="...">
       <div class="carousel-caption"></div>
     </div>
-    <div class="item">
-      <img src="<?php echo base_url('/public/img/banner2.jpg'); ?>" alt="...">
+    <div class="item active">
+      <img src="https://blinkme-vitormendes97.c9users.io/public/img/banner2.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
    
     <div class="item">
-      <img src="<?php echo base_url('/public/img/banner3.jpg'); ?>" alt="...">
+      <img src="https://blinkme-vitormendes97.c9users.io/public/img/banner3.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
    
     <div class="item">
-      <img src="<?php echo base_url('/public/img/banner4.jpg'); ?>" alt="...">
+      <img src="https://blinkme-vitormendes97.c9users.io/public/img/banner4.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
@@ -180,13 +205,13 @@
       <div class="container-fluid" id="pos-carousel">
          <div class="row" style="margin-top:3%;">
             <div class="col-md-12">
-               <p id=>BLINK.ME. UM MERGULHO NO MUNDO DA BELEZA</p>
+               <p id="">BLINK.ME. UM MERGULHO NO MUNDO DA BELEZA</p>
             </div>
          </div>
          
          <!--<div class="row">-->
          <!--   <div class="col-md-12" >-->
-         <!--      <img src="<?php echo base_url('/public/img/circle-content.jpg'); ?>" id="circle-content"></img>-->
+         <!--      <img src="https://blinkme-vitormendes97.c9users.io/public/img/circle-content.jpg" id="circle-content"></img>-->
          <!--   </div>-->
          <!--</div>-->
          
@@ -194,16 +219,16 @@
             <div class="col-md-12">
                <div class="row">
                   <div class="col-md-3">
-                     <img id="circle-cosmetics"src="<?php echo base_url('/public/img/Cosmetics.jpg'); ?> " class="img-responsive circle-img"></img>
+                     <img id="circle-cosmetics" src="https://blinkme-vitormendes97.c9users.io/public/img/Cosmetics.jpg " class="img-responsive circle-img">
                      <div class="row">
-                        <div class="col-md-12" id="col-cosmetics" >
+                        <div class="col-md-12" id="col-cosmetics">
                            <p class="circle-content-p">COSMETICS</p>
                         </div>
                      </div>
                   </div>
                   
                   <div class="col-md-3">
-                     <img id="circle-atelier"src="<?php echo base_url('/public/img/Atelier.jpg'); ?> " class="img-responsive circle-img"></img>
+                     <img id="circle-atelier" src="https://blinkme-vitormendes97.c9users.io/public/img/Atelier.jpg " class="img-responsive circle-img">
                       <div class="row">
                         <div class="col-md-12" id="col-atelier">
                            <p class="circle-content-p">ATELIER BEAUTY</p>
@@ -212,16 +237,16 @@
                   </div>
                   
                   <div class="col-md-3">
-                     <img id="circle-lab"src="<?php echo base_url('/public/img/LAB.jpg'); ?> " class="img-responsive circle-img"></img>
+                     <img id="circle-lab" src="https://blinkme-vitormendes97.c9users.io/public/img/LAB.jpg " class="img-responsive circle-img">
                      <div class="row">
-                        <div class="col-md-12" id="col-lab" >
+                        <div class="col-md-12" id="col-lab">
                            <p class="circle-content-p">LAB</p>
                         </div>
                      </div>
                   </div>
                   
                   <div class="col-md-3">
-                     <img id="circle-studio"src="<?php echo base_url('/public/img/other.jpg'); ?> " class="img-responsive circle-img"></img>
+                     <img id="circle-studio" src="https://blinkme-vitormendes97.c9users.io/public/img/other.jpg " class="img-responsive circle-img">
                       <div class="row">
                         <div class="col-md-12" id="col-studio">
                            <p class="circle-content-p">STUDIO</p>
@@ -245,13 +270,13 @@
                   <div class="col-md-7">
                      <div class="row">
                         <div class="col-md-12">
-                           <img id="blinkmeclub" src="<?php echo base_url('/public/img/blinkmeclub.jpg'); ?> "></img>
+                           <img id="blinkmeclub" src="https://blinkme-vitormendes97.c9users.io/public/img/blinkmeclub.jpg ">
                         </div>
                      </div>
                      
                      <div class="row">
                         <div class="col-md-4">
-                           <img id="circle_thumb" src="<?php echo base_url('/public/img/circle-thumb.jpg'); ?> "></img>
+                           <img id="circle_thumb" src="https://blinkme-vitormendes97.c9users.io/public/img/circle-thumb.jpg ">
                         </div>
                         
                         <div class="col-md-8">
@@ -275,17 +300,17 @@
                            <div class="col-md-12">
                               <p style="color:#000;font-size:20px;" id="vantagens">VANTAGENS</p>
                                <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;margin-bottom: 0; width:62%;">
-                                   <dt style="color:#fff;">></dt>
+                                   <dt style="color:#fff;">&gt;</dt>
                                    <dd>15% DE DESCONTO EM TODA LOJA</dd>
                                  </dl>
                                  
                                  <dl class="dl-horizontal lista-vertical" style="background: #F28761; padding:4%;margin-bottom:0;width:62%;">
-                                   <dt style="color:#fff;">></dt>
+                                   <dt style="color:#fff;">&gt;</dt>
                                    <dd>PROMOÇÕES EXCLUSIVAS</dd>
                                  </dl>
                                  
                                  <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;width:62%;">
-                                   <dt style="color:#fff;">></dt>
+                                   <dt style="color:#fff;">&gt;</dt>
                                    <dd>SERVIÇOS DE CASHBACK</dd>
                                  </dl>
                                
@@ -351,7 +376,7 @@
          <div class="container-fluid footer">
               <div class="row">
                  <div class="col-md-6" style="background:#EB4610;">
-                    <img id="logo-footer" src="https://blinkme-vitormendes97.c9users.io/public/img/banner_footer.jpg" class="img-responsive"></img>
+                    <img id="logo-footer" src="https://blinkme-vitormendes97.c9users.io/public/img/banner_footer.jpg" class="img-responsive">
                  </div>
                  <div class="col-md-6">
                     <div class="row">
@@ -365,19 +390,19 @@
                     <div class="row visible-sm visible-md visible-lg">
                        <div class="col-md-12">
                           <ul class="list-inline">
-                             <li><a href="#"> <img id="google-play" src="<?php echo base_url('/public/img/google_store.jpg');  ?> "></img></a></li>
-                             <li><a href="#"> <img id="ios-store" src="<?php echo base_url('/public/img/ios_store.jpg');  ?> "></img></a></li>
+                             <li><a href="#"> <img id="google-play" src="https://blinkme-vitormendes97.c9users.io/public/img/google_store.jpg "></a></li>
+                             <li><a href="#"> <img id="ios-store" src="https://blinkme-vitormendes97.c9users.io/public/img/ios_store.jpg "></a></li>
                           </ul>
                        </div>
                     </div>
                     
                     <div class="row visible-xs">
                        <div class="col-xs-6">
-                          <img id="google-play" class="pull-right" src="<?php echo base_url('/public/img/google_store.jpg');  ?> ">
+                          <img id="google-play" class="pull-right" src="https://blinkme-vitormendes97.c9users.io/public/img/google_store.jpg ">
                        </div>
                        
                         <div class="col-xs-6">
-                          <img id="ios-store" src="<?php echo base_url('/public/img/ios_store.jpg');  ?> ">
+                          <img id="ios-store" src="https://blinkme-vitormendes97.c9users.io/public/img/ios_store.jpg ">
                        </div>
                     </div>
                  </div>
@@ -386,5 +411,6 @@
       </footer>
 
       </header>
-   </body>
-</html>
+   
+
+</body></html>
