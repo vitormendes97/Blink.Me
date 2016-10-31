@@ -1,4 +1,4 @@
-@media only screen and (max-width: 990px) { 
+@media only screen and (max-width: 767px) { 
 
 .borderDash {
     border: 2px dashed;
@@ -6,18 +6,16 @@
     margin: 10px;
 }
 .borderDash2 {
-    border: 2px dashed;
+        border: 2px dashed;
     border-top: none;
-    margin: 10px;
-}
-.vouncher {
-        background-image: url(../img/firola2.png);
-    margin-top: -20px;
-    background-repeat-x: inherit;
+    margin: 0px 10px 20px 24px;
 }
 .pos-top{
- height: inherit !important;
- padding: 0px
+ height: inherit;
+     padding: 0px;
+}
+.vouncher {
+    background-image: none;
 }
 #top01{
 	height: 2.3vh;
@@ -28,9 +26,7 @@
 	width: 50%;
 	position: absolute;
 }
-#formParte1 {
-    padding-left: 0px;
-}
+
 .navbar-header{
 	background-color: #F15922;
 	background-image: url('../img/logo2.jpg');
@@ -68,6 +64,7 @@
 }
 #vouncher{
 	width: 100%;
+            
 }
 
 #firola{
@@ -265,25 +262,24 @@ dl{
 }
 
 #circle-atelier{
-    margin-left: 0%;
-    margin: 0 auto;
+	margin-left: 0%;
+	margin: 0 auto;
 }
 
 #circle-lab{
-    margin-left: 0%;
-    margin: 0 auto;
+	margin-left: 0%;
+	margin: 0 auto;
 }
 
 #circle-studio{
-    margin-left: 0%;
-    margin: 0 auto;
+	margin-left: 0%;
+	margin: 0 auto;
 }
-.circle-img {
+	.circle-img {
     width: 45%;
+   
 }
-.tinta { 
-background-size: 70%;
-}
+
 #col-cosmetics{
 	margin-left: 0;
 }
