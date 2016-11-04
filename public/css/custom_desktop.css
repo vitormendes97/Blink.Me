@@ -22,9 +22,9 @@ body{
 	margin-bottom: 0;
 }
 
-#fname{
+/*#fname{
 	margin-left: 97px;
-}
+}*/
 
 #top01{
 	height: 5px;
@@ -76,10 +76,10 @@ body{
 	border-radius: 5px;
 	font-size: 18px;
 	border:none;
+	margin-left: -13%;
 }
 .select-area{
-	margin-left: 16%;
-	margin-top: 2.4%;"
+	margin-right: 5%;
 }
 .vouncher {
     height:100%; padding-right: 0px; padding-left: 0px;position: relative;background: url('../img/firola.jpg') no-repeat #F16D3D;
@@ -116,9 +116,9 @@ body{
 
 .input-class{
 
-	width: 38%;
+	width: 41%;
 	border-radius: 5px;
-	margin-left: 23%;
+	margin-left: 18%;
 }
 
 .col-input{
@@ -220,8 +220,8 @@ body{
 	display: inline;
 	font-family: MyRiad;
     font-size: 19px;
-    margin-left: 20%;
-    width:  198px;
+    /*margin-left: 20%;*/
+    /*width:  198px;*/
 	
 }
 

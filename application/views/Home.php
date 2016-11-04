@@ -1,17 +1,20 @@
-﻿<html><head>
+﻿
+<!DOCTYPE html>
+<html>
+<head>
   <title>BlinkMe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Jquery -->
-  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
   <!-- Bootstrap -->
-  <script type="text/javascript" src="http://localhost/blinkme/public/bootstrap/js/bootstrap.js "></script>
-  <script type="text/javascript" src="http://localhost/blinkme/public/js/function.js"></script>
-  <link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/bootstrap/css/bootstrap.css ">
-  <link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/css/custom_desktop.css ">
-  <link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/css/custom_mobile.css ">
-  <!--<link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/css/custom_large.css ">-->
-  <link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/fontawsome/css/font-awesome.css ">
+  <script type="text/javascript" src="<?php echo base_url('/public/bootstrap/js/bootstrap.js'); ?> " ></script>
+  <script type="text/javascript" src="<?php echo base_url('/public/js/function.js'); ?>"></script>
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/bootstrap/css/bootstrap.css'); ?> ">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_desktop.css'); ?> ">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_mobile.css'); ?> ">
+  <!--<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_large.css'); ?> ">-->
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/fontawsome/css/font-awesome.css'); ?> ">
 </head>
 
 <body>&#65279;<script>
@@ -69,7 +72,7 @@ $(document).ready(function(){
             <div class="row visible-lg visible-md" id="top02">
                <div class="container">
                   <div class="col-md-3">
-                     <img class="img-responsive" src="http://localhost/blinkme/public/img/logo2.jpg">
+                     <img class="img-responsive" src="<?php echo base_url('/public/img/logo2.jpg'); ?>">
                   </div>
                   <div class="col-md-9" id="top03-lista" style="text-align: right;">
                      <ul class="list-inline">
@@ -94,7 +97,7 @@ $(document).ready(function(){
                         <div class="col-md-12">
                             <div class="row">
                                     <div class="col-md-12">
-                                             <img class="img-responsive img-center" id="off_15" src="http://localhost/blinkme/public/img/15_off.png ">
+                                             <img class="img-responsive img-center" id="off_15" src="<?php echo base_url('public/img/15_off.png'); ?> ">
                                     </div>
                             </div>
 
@@ -104,17 +107,22 @@ $(document).ready(function(){
                                     </div>
                             </div>
            <form action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-  <div class="col-md-12 select-area">
-                              <label for="premio" style="color:black;font-family: MyRiad;margin-left: 6px;">Escolha seu prêmio  :</label>
+                            <div class="row select-area">
+                               <div class="col-md-6 col-xs-9">
+                              <p style="color:black;font-family: MyRiad;text-align: right;">Escolha seu prêmio  :</p>
+                                
+                              </div>
+                              <div class="col-md-6 col-xs-3">
                                  <select id="select-form" name="MMERGE3">
                                      <option value="Nenhum">Selecione</option>
                                     <option value="Necessair">Necessair</option>
                                      <option value="Serviço de mão">Serviço</option>
                                  </select>
                               </div>
+                            </div>
                             <div class="row">
                                     <div class="col-md-12">
-                                            <input type="text" id="fname" name="FNAME" class="form-control input-class" required="required" placeholder="Nome" style="font-family: MyRiad;font-size: 19px;width: 198px;">
+                                            <input type="text" id="fname" name="FNAME" class="form-control input-class" required="required" placeholder="Nome" style="font-family: MyRiad;font-size: 19px;">
                                     </div>
                             </div>
 
@@ -156,7 +164,7 @@ $(document).ready(function(){
                 
                 <div class="col-md-1 hidden-xs hidden-sm" style="height:100%; 
                     position: relative;
-                    background: url(http://localhost/blinkme/public/img/firola_2_2.jpg ) no-repeat #f16d3d;
+                    background: url(<?php echo base_url('public/img/firola_2_2.jpg');?> no-repeat #f16d3d;
                     background-color: #F0E7D6;
                     padding-left:0px;"> 
                     <div class="borderDash3">
@@ -179,23 +187,23 @@ $(document).ready(function(){
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item">
-      <img src="http://localhost/blinkme/public/img/banner1.jpg" alt="...">
+      <img src="<?php echo base_url('public/img/banner1.jpg'); ?>" alt="...">
       <div class="carousel-caption"></div>
     </div>
     <div class="item active">
-      <img src="http://localhost/blinkme/public/img/banner2.jpg" alt="...">
+      <img src="<?php echo base_url('public/img/banner2.jpg'); ?>" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
    
     <div class="item">
-      <img src="http://localhost/blinkme/public/img/banner3.jpg" alt="...">
+      <img src="<?php echo base_url('public/img/banner3.jpg'); ?>" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
    
     <div class="item">
-      <img src="http://localhost/blinkme/public/img/banner4.jpg" alt="...">
+      <img src="<?php echo base_url('public/img/banner4.jpg'); ?>" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
@@ -231,25 +239,25 @@ $(document).ready(function(){
             <div class="col-md-12">
                 <div class="container" style="padding-bottom:30px">
                   <div class="tinta col-md-3 col-sm-6 col-xs-12">
-                     <img src="http://localhost/blinkme/public/img/Cosmetics.jpg " class="img-responsive circle-img">
+                     <img src="<?php echo base_url('public/img/Cosmetics.jpg'); ?> " class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">COSMETICS</p>
                   </div>
                   
                   <div class="tinta col-md-3 col-sm-6 col-xs-12">
-                     <img src="http://localhost/blinkme/public/img/Atelier.jpg " class="img-responsive circle-img">
+                     <img src="<?php echo base_url('public/img/Atelier.jpg');?> " class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">ATELIER BEAUTY</p>
                   </div>
                   
                   <div class="tinta col-md-3 col-sm-6 col-xs-12">
-                     <img src="http://localhost/blinkme/public/img/LAB.jpg" class="img-responsive circle-img">
+                     <img src="<?php echo base_url('public/img/LAB.jpg'); ?>" class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">LAB</p>
                   </div>
                   
                   <div class="tinta col-md-3 col-sm-6 col-xs-12">
-                     <img src="http://localhost/blinkme/public/img/other.jpg" class="img-responsive circle-img">
+                     <img src="<?php echo base_url('public/img/other.jpg'); ?>" class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">STUDIO</p>
                   </div>
@@ -263,11 +271,11 @@ $(document).ready(function(){
       
       <div class="container" id="club" style="background:#F4F4F4;    padding: 20px 20px;">
           <div class="col-md-12">
-              <img src="http://localhost/blinkme/public/img/blinkmeclub.jpg" style="    width: 300px;">  
+              <img src="<?php echo base_url('public/img/blinkmeclub.jpg');?>" style="    width: 300px;">  
              <br><br>
           </div>
         <div class="col-md-3">
-            <img src="http://localhost/blinkme/public/img/circle-thumb.jpg" style="    max-width: 300px;  width: 90%;margin: 0 auto;display: block;">
+            <img src="<?php echo base_url('public/img/circle-thumb.jpg'); ?>" style="    max-width: 300px;  width: 90%;margin: 0 auto;display: block;">
         </div>
 
          <div class="col-md-5" style="    color: #000;font-size: 20px;padding: 20px 40px 0px 0px;">
@@ -343,7 +351,7 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
                   não apenas os moradores da região, mas também estudantes e profissionais que
                   frequentam a região. É um local de entretenimento, compras e diversão.
                  <br>
-                 <img src="http://localhost/blinkme/public/img/morumbi-shopping.png" style="    width: 150px;margin-top: 10px;">
+                 <img src="<?php echo base_url('public/img/morumbi-shopping.png');?>" style="    width: 150px;margin-top: 10px;">
                 </p>
               </div>
             
@@ -351,14 +359,14 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
                <p style="    font-size: 35px;
     margin-top: 60px;">INFORMAÇÕES</p>
                
-               <img src="http://localhost/blinkme/public/img/point.png" style="    float: left;margin-right: 10px;">
+               <img src="<?php echo base_url('public/img/point.png');?>" style="    float: left;margin-right: 10px;">
                <p style="float: left;">ENDEREÇO:<br>
                    Av. Giovanni Gronchi, 5930<br>
                    Vila Andrade - São Paulo - SP , Shopping Morumbi<br>
                    1º Piso. Tel.: (11) 2503-9527.
                </p>
                <br style="clear:both"><br style="clear:both">
-               <img src="http://localhost/blinkme/public/img/msg.png" style="    float: left;margin-right: 10px;">
+               <img src="<?php echo base_url('public/img/msg.png');?>" style="    float: left;margin-right: 10px;">
                <p style="float: left;">CONTATOS:<br>
                    Administração: 11 3740.6940<br>
                    Assessoria de Imprensa Blink.Me:<br>
@@ -376,7 +384,7 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
          <div class="container">
               <div class="row">
                  <div class="col-md-6" style="background:#ed4810;">
-                    <img id="logo-footer" src="http://localhost/blinkme/public/img/banner_footer_.png">
+                    <img id="logo-footer" src="<?php echo base_url('public/img/banner_footer_.png');?>">
                  </div>
                   <div class="col-md-6" style="    padding: 30px 20px;">
                     <p>Av.Giovanni Gronchi,5930 - Vila Andrade, São Paulo - SP | Morumbi Town</p>
@@ -385,10 +393,10 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
                     <br>
                     <a href="#"> <img style="    height: 30px;
     float: left;
-    margin: -30px 0px 0px 0px;" src="http://localhost/blinkme/public/img/google_store.jpg "></a>
+    margin: -30px 0px 0px 0px;" src="<?php echo base_url('public/img/google_store.jpg');?> "></a>
                     <a href="#"> <img style="    float: left;
     height: 30px;
-    margin: -30px 20px 10px 100px;" src="http://localhost/blinkme/public/img/ios_store.jpg "></a>
+    margin: -30px 20px 10px 100px;" src="<?php echo base_url('public/img/ios_store.jpg');?> "></a>
                     
                  </div>
               </div>
