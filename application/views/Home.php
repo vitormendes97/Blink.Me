@@ -1,4 +1,20 @@
-﻿<script>
+﻿<html><head>
+  <title>BlinkMe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script type="text/javascript" src="http://localhost/blinkme/public/bootstrap/js/bootstrap.js "></script>
+  <script type="text/javascript" src="http://localhost/blinkme/public/js/function.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/bootstrap/css/bootstrap.css ">
+  <link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/css/custom_desktop.css ">
+  <link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/css/custom_mobile.css ">
+  <!--<link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/css/custom_large.css ">-->
+  <link rel="stylesheet" type="text/css" href="http://localhost/blinkme/public/fontawsome/css/font-awesome.css ">
+</head>
+
+<body>&#65279;<script>
 $(document).ready(function(){
     $('.ancora').click(function() {
         
@@ -11,7 +27,7 @@ $(document).ready(function(){
     });    
 });
 </script>
-<body>
+
       <header>
          <!-- Topo -->
          <nav class="navbar navbar-default visible-xs visible-sm">
@@ -32,6 +48,7 @@ $(document).ready(function(){
                      <li><a class="ancora" href="#cadastrese" style="color:#fff; font-family: MyRiad; font-size: 19px;">CADASTRE-SE<span class="sr-only">(current)</span></a></li>
                      <li><a class="ancora" href="#club" style="color:#fff; font-family: MyRiad;font-size: 19px;">BLINK ME CLUB</a></li>
                      <li><a class="ancora" href="#manifesto" style="color:#fff; font-family: MyRiad;font-size: 19px;">MANIFESTO</a></li>
+                       <li><a class="ancora" href="#fotos" style="color:#fff; font-family: MyRiad;font-size: 19px;">FOTOS</a></li>
                      <li><a class="ancora" href="#contato" style="color:#fff; font-family: MyRiad;font-size: 19px;">CONTATO</a></li>
                   </ul>
                </div>
@@ -52,13 +69,14 @@ $(document).ready(function(){
             <div class="row visible-lg visible-md" id="top02">
                <div class="container">
                   <div class="col-md-3">
-                     <img class="img-responsive" src="<?php echo base_url('public/img/logo2.jpg') ?>">
+                     <img class="img-responsive" src="http://localhost/blinkme/public/img/logo2.jpg">
                   </div>
                   <div class="col-md-9" id="top03-lista" style="text-align: right;">
                      <ul class="list-inline">
-                        <li><a class="ancora" href="#cadastrese">CADASTRE-SE</a></li>
+                     <li><a class="ancora" href="#cadastrese">CADASTRE-SE</a></li>
                         <li><a class="ancora" href="#club">BLINK ME CLUB</a></li>
                         <li><a class="ancora" href="#manifesto">MANIFESTO</a></li>
+                        <li><a class="ancora" href="#fotos">FOTOS</a></li>
                         <li><a class="ancora" href="#contato">CONTATO</a></li>
                      </ul>
                   </div>
@@ -76,7 +94,7 @@ $(document).ready(function(){
                         <div class="col-md-12">
                             <div class="row">
                                     <div class="col-md-12">
-                                             <img class="img-responsive img-center" id="off_15" src="<?php echo base_url('public/img/15_off.png') ?> ">
+                                             <img class="img-responsive img-center" id="off_15" src="http://localhost/blinkme/public/img/15_off.png ">
                                     </div>
                             </div>
 
@@ -85,20 +103,31 @@ $(document).ready(function(){
                                             <p class="Reklame-font" style="color:#000;">Vem ai um momento único</p>
                                     </div>
                             </div>
-			     <form action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+           <form action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+  <div class="col-md-12 select-area">
+                              <label for="premio" style="color:black;font-family: MyRiad;margin-left: 6px;">Escolha seu prêmio  :</label>
+                                 <select id="select-form" name="MMERGE3">
+                                     <option value="Nenhum">Selecione</option>
+                                    <option value="Necessair">Necessair</option>
+                                     <option value="Serviço de mão">Serviço</option>
+                                 </select>
+                              </div>
                             <div class="row">
                                     <div class="col-md-12">
-                                            <input type="text" name="FNOME" class="form-control input-class" required="required" placeholder="Nome" style="font-family: MyRiad;font-size: 19px;">
+                                            <input type="text" id="fname" name="FNAME" class="form-control input-class" required="required" placeholder="Nome" style="font-family: MyRiad;font-size: 19px;width: 198px;">
                                     </div>
                             </div>
 
                             <div class="row">
                                     <div class="col-md-12">
-                                             <input type="email" id="input-email" name="EMAIL" class="form-control input-class" required="required" placeholder="Email" style="font-family: MyRiad;font-size: 19px;">
+                                             <input type="email" id="input-email" name="EMAIL" class="form-control input-class" required="required" placeholder="Email" >
                                               <input type="submit" style="font-family:MyRiad" class="btn btn-default btn-custom" id="btn-cadastrar" value="Cadastre-se">
                                     </div>
                             </div>
-			    </form>		
+          </form>   
+                            <div class="row">
+                                   
+                            </div>
                             <div class="row">
                                     <div class="col-md-12" style="padding-bottom:4%;">
                                             <p id="promocao">Promoção por tempo <u>limitado!</u></p>
@@ -108,34 +137,37 @@ $(document).ready(function(){
                         </div>
                     </div>
                             
-               	</div>
-               	
-               	<div class="col-md-6 vouncher">
+                </div>
+                
+                <div class="col-md-6 vouncher">
                         <div class="borderDash2">
                             <div style="    padding: 90px 20px;max-width: 440px;margin: 0 auto;">
                                 <p style="font-size: 60px;">VOUCHER de desconto</p>
-                                <p style="font-family: myRiad;    font-size: 25px;
-    padding-right: 30px;">Preencha o nosso cadastro e seja um dos 100 primeiros clientes a ganhar 15% de desconto durante a primeira semana de funcionamento da blink.me.</p>
+                                <p style="font-family: myRiad;    font-size: 19px;
+    padding-right: 30px;">Cadastre-se e&nbsp;ganhe uma necessaire exclusiva&nbsp;blink.me, ou faça suas unhas ficarem
+                          incríveis no nosso salão. E mais:&nbsp;aproveite uma semana inteira com 10% de desconto
+                          em todos os produtos e serviços!
+                          *Promoção válida para os 100 primeiros cadastrados entre os dias 5 e 11 de dezembro.</p>
                              </div>
                         </div>
                         
                         
-               	</div>
-               	
-               	<div class="col-md-1 hidden-xs hidden-sm" style="height:100%; 
+                </div>
+                
+                <div class="col-md-1 hidden-xs hidden-sm" style="height:100%; 
                     position: relative;
-                    background: url(<?php echo base_url('public/img/firola_2_2.jpg'); ?> ) no-repeat #f16d3d;
+                    background: url(http://localhost/blinkme/public/img/firola_2_2.jpg ) no-repeat #f16d3d;
                     background-color: #F0E7D6;
                     padding-left:0px;"> 
                     <div class="borderDash3">
                             
                         </div>
-               	   
-               	</div>
+                   
+                </div>
          </div>
          
       <!--CAROUSEL-->
-      <div class="container-fluid" style="padding:0;margin-top:1%;">
+      <div class="container-fluid" style="padding:0;margin-top:1%;" id="fotos">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -147,23 +179,23 @@ $(document).ready(function(){
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item">
-      <img src="<?php echo base_url('public/img/banner1.jpg') ?>" alt="...">
+      <img src="http://localhost/blinkme/public/img/banner1.jpg" alt="...">
       <div class="carousel-caption"></div>
     </div>
     <div class="item active">
-      <img src="<?php echo base_url('public/img/banner2.jpg') ?>" alt="...">
+      <img src="http://localhost/blinkme/public/img/banner2.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
    
     <div class="item">
-      <img src="<?php echo base_url('public/img/banner3.jpg') ?>" alt="...">
+      <img src="http://localhost/blinkme/public/img/banner3.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
    
     <div class="item">
-      <img src="<?php echo base_url('public/img/banner4.jpg') ?>" alt="...">
+      <img src="http://localhost/blinkme/public/img/banner4.jpg" alt="...">
       <div class="carousel-caption">
       </div>
     </div>
@@ -185,7 +217,7 @@ $(document).ready(function(){
       <div class="container-fluid" id="pos-carousel">
          
           <p style="       margin: 40px 20px -40px;
-    font-size: 27px;    text-align: center;">BLINK.ME. UM MERGULHO NO MUNDO DA BELEZA</p>
+    font-size: 27px;    text-align: center;">BLINK.ME. PARA VOCÊ QUE, ASSIM COMO NÓS, É APAIXONADA POR BELEZA.</p>
              <br>             <br>
              <br>
 
@@ -199,25 +231,25 @@ $(document).ready(function(){
             <div class="col-md-12">
                 <div class="container" style="padding-bottom:30px">
                   <div class="tinta col-md-3 col-sm-6 col-xs-12">
-                     <img   src="<?php echo base_url('public/img/Cosmetics.jpg ') ?>" class="img-responsive circle-img">
+                     <img src="http://localhost/blinkme/public/img/Cosmetics.jpg " class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">COSMETICS</p>
                   </div>
                   
                   <div class="tinta col-md-3 col-sm-6 col-xs-12">
-                     <img   src="<?php echo base_url('public/img/Atelier.jpg') ?> " class="img-responsive circle-img">
+                     <img src="http://localhost/blinkme/public/img/Atelier.jpg " class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">ATELIER BEAUTY</p>
                   </div>
                   
                   <div class="tinta col-md-3 col-sm-6 col-xs-12">
-                     <img   src="<?php echo base_url('public/img/LAB.jpg') ?>" class="img-responsive circle-img">
+                     <img src="http://localhost/blinkme/public/img/LAB.jpg" class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">LAB</p>
                   </div>
                   
                   <div class="tinta col-md-3 col-sm-6 col-xs-12">
-                     <img   src="<?php echo base_url('public/img/other.jpg') ?>" class="img-responsive circle-img">
+                     <img src="http://localhost/blinkme/public/img/other.jpg" class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">STUDIO</p>
                   </div>
@@ -231,19 +263,17 @@ $(document).ready(function(){
       
       <div class="container" id="club" style="background:#F4F4F4;    padding: 20px 20px;">
           <div class="col-md-12">
-              <img src="<?php echo base_url('public/img/blinkmeclub.jpg') ?>" style="    width: 300px;">  
+              <img src="http://localhost/blinkme/public/img/blinkmeclub.jpg" style="    width: 300px;">  
              <br><br>
           </div>
         <div class="col-md-3">
-            <img src="<?php echo base_url('public/img/circle-thumb.jpg') ?>" style="    max-width: 300px;  width: 90%;margin: 0 auto;display: block;">
+            <img src="http://localhost/blinkme/public/img/circle-thumb.jpg" style="    max-width: 300px;  width: 90%;margin: 0 auto;display: block;">
         </div>
 
          <div class="col-md-5" style="    color: #000;font-size: 20px;padding: 20px 40px 0px 0px;">
-           <p>Toda mulher nasce VIP, mas o blink.me club é a materialização disso.
-           Cada mulher associada do blink.me terá acesso a uma área totalmente personalizada
-           do site que, quando logada, traz assuntos específicos sobre o mundo dela. <br><br> 
-           Tenho um orgulho imenso desse serviço e trabalhamos com a certeza de que você terá
-           sempre vantagens e conforto únicos. Prepare-se</p>
+           <p>Toda mulher nasce VIP, mas o blink.me club é a materialização disso. Cada uma das
+associadas do blink.me club terá acesso a uma área totalmente personalizada do site. Ao se logar nessa área, a associada terá acesso a assuntos específicos sobre o mundo dela. <br><br> 
+           TemosΩ um orgulho imenso desse serviço e trabalhamos com a certeza de que você terá sempre vantagens e conforto únicos. <br>Prepare-se!</p>
         </div>
 
         <div class="col-md-4">
@@ -283,17 +313,22 @@ $(document).ready(function(){
     line-height: 1;
     font-style: italic;
     font-size: 20px;">
+      <p style="font-weight: bold; font-size:25px;">Manifesto</p>
        <p>Esse é o momento para você que se reiventa todo dia.</p>
-       <p>É para você que gosta de um visual clássico, mas sabe o momento de dar um corte novo nos cabelos.</p>
-       <p>É para você que, antes de chamar os convidados para festa, passa um rímel nos olhos e visita segredos escondidos em certezas só suas.</p>
-       <p>É para você que tem mil belezas. E percebe o brilho de em um único dia ter mil facetas.</p>
-       <p>É para você que sabe o momento de passar um blush e entende o poder de um batom, de um sorriso, de um novo tom.</p>
-       <p>É para você que não se intimida com o corre-corre da vida e pinta as unhas toda semana para dar os melhores abraços e os melhores apertos de mão</p>
-       <p>É para você que não se abala quando as coisas dão errado. Quando isso acontece, você passa seu melhor perfume e olha adiante com firmeza, sem perder o gingado.</p>
-       <p>É para você que, em nome da elegância, sabendo que não é heroína, se faz mulher.
-       Afinal, ser mulher reúne mais que momentos heróicos.
-       Reúne os melhores momentos.</p>
 
+       <p>É para você que gosta de um visual clássico, mas sabe o momento de dar um corte novo nos cabelos.</p>
+       
+       <p>É para você que encara o espelho de frente e passa máscara de cílios para destacar o brilho dos seus olhos.</p>
+
+       <p>É para você que sabe o momento de passar um blush e entende o poder de um batom, de um sorriso, de um novo tom.</p>
+
+       <p>É para você que não se intimida com o corre-corre da vida e pinta as unhas toda semana para marcar os momentos com o seu toque colorido.</p>
+
+       <p>É para você que tropeça. Mas ergue a cabeça, passa o seu melhor perfume e dá o passo seguinte, cheia de firmeza.</p>
+       <p>para você que, em nome da elegância, sabendo que não é heroína,&nbsp;entende a beleza de ser mulher.</p>
+
+       <p>Afinal, ser mulher reúne mais que momentos heroicos.</p>
+       <p>Reúne os melhores momentos.</p>
        <p>blink.me. O seu momento.</p>
     </div>
 
@@ -303,11 +338,12 @@ $(document).ready(function(){
              <div class="col-md-7" style="    margin-top: 100px;
     padding-right: 50px;">
                 <p style="    font-size: 50px;">MORUMBI TOWN</p>
-                <p>Central, bem localizado e com um conceito exclusivo de um dos maiores grupos de shoppings do mundo, 
-                 o Morumbi Town combina perfeitamente com a blink.me. Atrai não apenas os moradores da região, mas também estudantes e 
-                 profissionais que vivem ao redor do local.
+                <p>Central, bem localizado e com um conceito exclusivo de um dos maiores grupos de
+                  shoppings do mundo, o Morumbi Town combina perfeitamente com a blink.me. Atrai
+                  não apenas os moradores da região, mas também estudantes e profissionais que
+                  frequentam a região. É um local de entretenimento, compras e diversão.
                  <br>
-                 <img src="<?php echo base_url('public/img/morumbi-shopping.png') ?>" style="    width: 150px;margin-top: 10px;"/>
+                 <img src="http://localhost/blinkme/public/img/morumbi-shopping.png" style="    width: 150px;margin-top: 10px;">
                 </p>
               </div>
             
@@ -315,20 +351,21 @@ $(document).ready(function(){
                <p style="    font-size: 35px;
     margin-top: 60px;">INFORMAÇÕES</p>
                
-               <img src="<?php echo base_url('public/img/point.png') ?>" style="    float: left;margin-right: 10px;"/>
-               <p style="float: left;">ENDEREÇO:<BR>
+               <img src="http://localhost/blinkme/public/img/point.png" style="    float: left;margin-right: 10px;">
+               <p style="float: left;">ENDEREÇO:<br>
                    Av. Giovanni Gronchi, 5930<br>
-                   Vila Andrade - São Paulo - SP<br>
-                   05724-002
+                   Vila Andrade - São Paulo - SP , Shopping Morumbi<br>
+                   1º Piso. Tel.: (11) 2503-9527.
                </p>
                <br style="clear:both"><br style="clear:both">
-               <img src="<?php echo base_url('public/img/msg.png') ?>" style="    float: left;margin-right: 10px;"/>
-               <p style="float: left;">CONTATOS:<BR>
+               <img src="http://localhost/blinkme/public/img/msg.png" style="    float: left;margin-right: 10px;">
+               <p style="float: left;">CONTATOS:<br>
                    Administração: 11 3740.6940<br>
-                   Assessoria de Imprensa:<br>
-                   11 3586.3110 | 11 94141.8585<br>
-                   Cristiane Fernandes Palumbo<br>
-                   cristiane@hatsur.com / www.hatsur.com
+                   Assessoria de Imprensa Blink.Me:<br>
+                   Renata Nascimento<br>
+                   Agência Viva<br>
+                   30810662/30629980<br>
+                   &lt;renata@agenciaviva.com&gt;
                </p>
             </div>
          </div>
@@ -339,7 +376,7 @@ $(document).ready(function(){
          <div class="container">
               <div class="row">
                  <div class="col-md-6" style="background:#ed4810;">
-                    <img id="logo-footer" src="<?php echo base_url('public/img/banner_footer_.png') ?>" >
+                    <img id="logo-footer" src="http://localhost/blinkme/public/img/banner_footer_.png">
                  </div>
                   <div class="col-md-6" style="    padding: 30px 20px;">
                     <p>Av.Giovanni Gronchi,5930 - Vila Andrade, São Paulo - SP | Morumbi Town</p>
@@ -348,10 +385,10 @@ $(document).ready(function(){
                     <br>
                     <a href="#"> <img style="    height: 30px;
     float: left;
-    margin: -30px 0px 0px 0px;" src="<?php echo base_url('public/img/google_store.jpg') ?> "></a>
+    margin: -30px 0px 0px 0px;" src="http://localhost/blinkme/public/img/google_store.jpg "></a>
                     <a href="#"> <img style="    float: left;
     height: 30px;
-    margin: -30px 20px 10px 100px;" src="<?php echo base_url('public/img/ios_store.jpg') ?> "></a>
+    margin: -30px 20px 10px 100px;" src="http://localhost/blinkme/public/img/ios_store.jpg "></a>
                     
                  </div>
               </div>
