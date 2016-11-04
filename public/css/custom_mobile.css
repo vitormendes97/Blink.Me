@@ -133,6 +133,10 @@
 	margin-left: -16px;
 }
 
+#fname{
+	margin-left: 20%;
+}
+
 #blinkmeclub {
 	margin-left: 30%;
     width: 40%;
@@ -305,4 +309,6 @@ background-size: 70%;
     width: 30%;
     margin-top: 10%;
 }
+
+
 }

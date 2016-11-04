@@ -22,12 +22,16 @@ body{
 	margin-bottom: 0;
 }
 
+#fname{
+	margin-left: 97px;
+}
+
 #top01{
 	height: 5px;
 	background:#FCAF17;
 }
 #top02{
-	background: #ff3800;
+	background: #f05a22;
         
 }
 #top03-lista{
@@ -86,8 +90,20 @@ body{
     margin-right: 0px;
     border-right: none;
 }
+
+#select-form{
+	background: #F15922;
+	font-family: MyRiad;
+	border-radius: 5px;
+	font-size: 18px;
+	border:none;
+}
+.select-area{
+	margin-left: 16%;
+	margin-top: 2.4%;"
+}
 .vouncher {
-    height:100%; padding-right: 0px; padding-left: 0px;position: relative;background: url('../img/firola.jpg') no-repeat #ff5a24;
+    height:100%; padding-right: 0px; padding-left: 0px;position: relative;background: url('../img/firola.jpg') no-repeat #F16D3D;
 }
 .borderDash3 {
     height: 90%;
@@ -223,6 +239,11 @@ body{
 
 #input-email{
 	display: inline;
+	font-family: MyRiad;
+    font-size: 19px;
+    margin-left: 20%;
+    width:  198px;
+	
 }
 
 #black-bar{
@@ -231,7 +252,7 @@ body{
 
 #pos-carousel{
 	height: 100%;
-	background-color: #ff7c56;
+	background-color: #F38761;
 }
 
 #pos-carousel > .row > .col-md-12 > p{
@@ -371,7 +392,7 @@ body{
 }
 .tinta {
        padding: 30px 0px;
-    background: url(../img/tinta.png);
+    background: url(../img/tinta.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center 0px;
