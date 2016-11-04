@@ -1,4 +1,4 @@
-<script>
+﻿<script>
 $(document).ready(function(){
     $('.ancora').click(function() {
         
@@ -85,20 +85,20 @@ $(document).ready(function(){
                                             <p class="Reklame-font" style="color:#000;">Vem ai um momento único</p>
                                     </div>
                             </div>
-
+			     <form action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div class="row">
                                     <div class="col-md-12">
-                                            <input type="text" name="nome" class="form-control input-class" required="required" placeholder="Nome" style="font-family: MyRiad;font-size: 19px;">
+                                            <input type="text" name="FNOME" class="form-control input-class" required="required" placeholder="Nome" style="font-family: MyRiad;font-size: 19px;">
                                     </div>
                             </div>
 
                             <div class="row">
                                     <div class="col-md-12">
-                                             <input type="email" id="input-email" name="email" class="form-control input-class" required="required" placeholder="Email" style="font-family: MyRiad;font-size: 19px;">
-                                              <button type="button" style="font-family:MyRiad" class="btn btn-default btn-custom" id="btn-cadastrar">Cadastre-se</button>
+                                             <input type="email" id="input-email" name="EMAIL" class="form-control input-class" required="required" placeholder="Email" style="font-family: MyRiad;font-size: 19px;">
+                                              <input type="submit" style="font-family:MyRiad" class="btn btn-default btn-custom" id="btn-cadastrar" value="Cadastre-se">
                                     </div>
                             </div>
-
+			    </form>		
                             <div class="row">
                                     <div class="col-md-12" style="padding-bottom:4%;">
                                             <p id="promocao">Promoção por tempo <u>limitado!</u></p>
@@ -363,8 +363,8 @@ $(document).ready(function(){
       <footer class="footer">
          <div class="container">
               <div class="row">
-                 <div class="col-md-6" style="background:#ff0f00;">
-                    <img id="logo-footer" src="<?php echo base_url('public/img/banner_footer.jpg') ?>" >
+                 <div class="col-md-6" style="background:#ed4810;">
+                    <img id="logo-footer" src="<?php echo base_url('public/img/banner_footer_.png') ?>" >
                  </div>
                   <div class="col-md-6" style="    padding: 30px 20px;">
                     <p>Av.Giovanni Gronchi,5930 - Vila Andrade, São Paulo - SP | Morumbi Town</p>
