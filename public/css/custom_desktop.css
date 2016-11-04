@@ -48,6 +48,27 @@ body{
     margin-top: 20px;
 }
 
+.bgTintaHover {
+    display: none;
+    position: absolute;
+    top: -40px;
+    background: url(../img/bg_tinta.png);
+    padding: 120px 60px 20px 80px;
+    width: 380px;
+    font-size: 15px;
+    height: 330px;
+    background-size: auto 100%;
+    background-position: center center;
+    line-height: 1;
+    z-index: 9999;
+}
+.bgTintaHover img {
+    width: 130px;
+    margin: -40px 0px 15px 35px;
+}
+.tinta:hover > .bgTintaHover {
+    display: block !important;
+}
 /*Pos-TOP*/
 .borderDash2 {
     height: 90%;

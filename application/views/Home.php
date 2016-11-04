@@ -146,7 +146,7 @@ $(document).ready(function(){
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item">
+    <div class="item" >
       <img src="<?php echo base_url('public/img/banner1.jpg') ?>" alt="...">
       <div class="carousel-caption"></div>
     </div>
@@ -198,29 +198,54 @@ $(document).ready(function(){
          <div class="row">
             <div class="col-md-12">
                 <div class="container" style="padding-bottom:30px">
-                  <div class="tinta col-md-3 col-sm-6 col-xs-12">
+                  <div class="tinta col-md-3 col-sm-6 col-xs-12" id="cosmetic">
                      <img   src="<?php echo base_url('public/img/Cosmetics.jpg ') ?>" class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">COSMETICS</p>
+                     <div class="bgTintaHover" id="hoverCosmetics">
+                         <img src="<?php echo base_url('public/img/blink_cosmetics.png') ?>" /><br>
+                         Você encontrará aqui os produtos utilizados pelos profissionais para cabelos, as melhores maquiagens e perfumes, 
+                        além de produtos para corpo e rosto. Difícil vai ser escolher entre as mais de 60 marcas disponíveis. 
+                        Mas o nosso time estará à disposição para tirar dúvidas, orientar e ajudar no momento de compra.</div>
                   </div>
-                  
-                  <div class="tinta col-md-3 col-sm-6 col-xs-12">
+                    
+                  <div class="tinta col-md-3 col-sm-6 col-xs-12" id="atelier">
                      <img   src="<?php echo base_url('public/img/Atelier.jpg') ?> " class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">ATELIER BEAUTY</p>
+                     <div class="bgTintaHover" id="hoverAtelier">
+                         <img src="<?php echo base_url('public/img/blink_atelier.png') ?>" /><br>
+                        Está com vontade de mudar o visual, fazer um novo corte nos cabelos, 
+                        mudar o penteado ou simplesmente trocar de esmalte? Esse é o espaço para um momento só seu, que torna você ainda mais bonita. 
+                        Selecionamos e treinamos os melhores profissionais e pensamos com muito carinho em tudo de que você precisa para 
+                        ter uma experiência inesquecível. </div>
                   </div>
-                  
-                  <div class="tinta col-md-3 col-sm-6 col-xs-12">
+                    
+                  <div class="tinta col-md-3 col-sm-6 col-xs-12" id="lab">
                      <img   src="<?php echo base_url('public/img/LAB.jpg') ?>" class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">LAB</p>
+                     <div class="bgTintaHover" id="hoverLab">
+                         <img src="<?php echo base_url('public/img/blink_lab.png') ?>" /><br>
+                         A blink.me foi criada para ser o seu momento. Mas, se você quiser, cabe mais gente. 
+                        Foi pensando nisso que o Lab da blink.me foi criado para você se reunir com quem quiser. 
+                        O nosso espaço pode ser usado tanto para eventos pessoais quanto corporativos. 
+                        O momento é seu e você escolhe o que fazer com ele. Para saber mais informações sobre a locação desse espaço, entre em contato conosco.</div>
                   </div>
-                  
-                  <div class="tinta col-md-3 col-sm-6 col-xs-12">
+                    
+                  <div class="tinta col-md-3 col-sm-6 col-xs-12" id="studio">
                      <img   src="<?php echo base_url('public/img/other.jpg') ?>" class="img-responsive circle-img">
                      <br>
                      <p class="circle-content-p">STUDIO</p>
+                     <div class="bgTintaHover" id="hoverStudio">
+                         <img src="<?php echo base_url('public/img/blink_studio.png') ?>" /><br>
+                         Depois de uma superprodução no nosso atelier, nada mais justo do que eternizar o momento com uma foto. 
+                        Por isso, contamos com um cantinho exclusivo para tirar aquela foto profissional e publicar nas redes sociais. 
+                        Ou, se você for do tipo reservada, só guardar como recordação para se lembrar do quanto é maravilhosa.  #blinkmemoment</div>
                   </div>
+                    
+                    
+                    
                </div>
             </div>
          </div>
