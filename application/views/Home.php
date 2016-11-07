@@ -31,7 +31,18 @@ $(document).ready(function(){
 });
 </script>
 
-      <header>
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-86883128-1', 'auto');
+      ga('send', 'pageview');
+
+</script>
+
+      
          <!-- Topo -->
          <nav class="navbar navbar-default visible-xs visible-sm">
             <div class="container-fluid col-sm-fluid">
@@ -48,11 +59,16 @@ $(document).ready(function(){
                <!-- Collect the nav links, forms, and other content for toggling -->
                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav ">
-                     <li><a class="ancora" href="#cadastrese" style="color:#fff; font-family: MyRiad; font-size: 19px;">CADASTRE-SE<span class="sr-only">(current)</span></a></li>
-                     <li><a class="ancora" href="#club" style="color:#fff; font-family: MyRiad;font-size: 19px;">BLINK ME CLUB</a></li>
-                     <li><a class="ancora" href="#manifesto" style="color:#fff; font-family: MyRiad;font-size: 19px;">MANIFESTO</a></li>
+
+                     <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Cadastre-se', '')" href="#cadastrese" style="color:#fff; font-family: MyRiad; font-size: 19px;">CADASTRE-SE<span class="sr-only">(current)</span></a></li>
+
+                     <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Blinkme-Club', '')" href="#club" style="color:#fff; font-family: MyRiad;font-size: 19px;">BLINK ME CLUB</a></li>
+
+                     <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Manifesto', '')" href="#manifesto" style="color:#fff; font-family: MyRiad;font-size: 19px;">MANIFESTO</a></li>
+
                        <li><a class="ancora" href="#fotos" style="color:#fff; font-family: MyRiad;font-size: 19px;">FOTOS</a></li>
-                     <li><a class="ancora" href="#contato" style="color:#fff; font-family: MyRiad;font-size: 19px;">CONTATO</a></li>
+
+                     <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Contato', '')" href="#contato" style="color:#fff; font-family: MyRiad;font-size: 19px;">CONTATO</a></li>
                   </ul>
                </div>
                <!-- /.navbar-collapse -->
@@ -76,11 +92,12 @@ $(document).ready(function(){
                   </div>
                   <div class="col-md-9" id="top03-lista" style="text-align: right;">
                      <ul class="list-inline">
-                     <li><a class="ancora" href="#cadastrese">CADASTRE-SE</a></li>
-                        <li><a class="ancora" href="#club">BLINK ME CLUB</a></li>
-                        <li><a class="ancora" href="#manifesto">MANIFESTO</a></li>
+                     <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Cadastre-se', '')" href="#cadastrese">CADASTRE-SE</a></li>
+                        <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Blinkme-Club', '')" href="#club">BLINK ME CLUB</a></li>
+                        <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Manifesto', '')" href="#manifesto">MANIFESTO</a></li>
                         <li><a class="ancora" href="#fotos">FOTOS</a></li>
-                        <li><a class="ancora" href="#contato">CONTATO</a></li>
+                        <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Contato', '')" href="#contato">CONTATO
+                        </a></li>
                      </ul>
                   </div>
                </div>
@@ -115,7 +132,7 @@ $(document).ready(function(){
                               <div class="col-md-6 col-xs-3">
                                  <select id="select-form" name="MMERGE3">
                                      <option value="Nenhum">Selecione</option>
-                                    <option value="Necessair">Necessair</option>
+                                    <option value="Necessaire">Necessaire</option>
                                      <option value="Serviço de mão">Serviço</option>
                                  </select>
                               </div>
@@ -129,7 +146,7 @@ $(document).ready(function(){
                             <div class="row">
                                     <div class="col-md-12">
                                              <input type="email" id="input-email" name="EMAIL" class="form-control input-class" required="required" placeholder="Email" >
-                                              <input type="submit" style="font-family:MyRiad" class="btn btn-default btn-custom" id="btn-cadastrar" value="Cadastre-se">
+                                              <input type="submit" onClick="ga('send', 'event', 'Home', 'Cadastre-se', '')" style="font-family:MyRiad" class="btn btn-default btn-custom" id="btn-cadastrar" value="Cadastre-se">
                                     </div>
                             </div>
           </form>   
@@ -155,7 +172,7 @@ $(document).ready(function(){
     padding-right: 30px;">Cadastre-se e&nbsp;ganhe uma necessaire exclusiva&nbsp;blink.me, ou faça suas unhas ficarem
                           incríveis no nosso salão. E mais:&nbsp;aproveite uma semana inteira com 10% de desconto
                           em todos os produtos e serviços!
-                          *Promoção válida para os 100 primeiros cadastrados entre os dias 5 e 11 de dezembro.</p>
+                          *Promoção válida para os 100 primeiros cadastrados que visitarem nossa loja entre os dias 5 e 11 de dezembro.</p>
                              </div>
                         </div>
                         
@@ -164,7 +181,7 @@ $(document).ready(function(){
                 
                 <div class="col-md-1 hidden-xs hidden-sm" style="height:100%; 
                     position: relative;
-                    background: url(<?php echo base_url('public/img/firola_2_2.jpg');?> no-repeat #f16d3d;
+                    background: url(<?php echo base_url('public/img/firola_2_2.jpg');?>) no-repeat #f16d3d;
                     background-color: #F0E7D6;
                     padding-left:0px;"> 
                     <div class="borderDash3">
@@ -211,11 +228,11 @@ $(document).ready(function(){
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" onClick="ga('send', 'event', 'Banner', 'Seta-Direita', '')" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control" onClick="ga('send', 'event', 'Banner', 'Seta-Esquerda', '')" href="#carousel-example-generic" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -306,7 +323,7 @@ $(document).ready(function(){
          <div class="col-md-5" style="    color: #000;font-size: 20px;padding: 20px 40px 0px 0px;">
            <p>Toda mulher nasce VIP, mas o blink.me club é a materialização disso. Cada uma das
 associadas do blink.me club terá acesso a uma área totalmente personalizada do site. Ao se logar nessa área, a associada terá acesso a assuntos específicos sobre o mundo dela. <br><br> 
-           TemosΩ um orgulho imenso desse serviço e trabalhamos com a certeza de que você terá sempre vantagens e conforto únicos. <br>Prepare-se!</p>
+           Temos um orgulho imenso desse serviço e trabalhamos com a certeza de que você terá sempre vantagens e conforto únicos. <br>Prepare-se!</p>
         </div>
 
         <div class="col-md-4">
@@ -346,21 +363,20 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
     line-height: 1;
     font-style: italic;
     font-size: 20px;">
-      <p style="font-weight: bold; font-size:25px;">Manifesto</p>
+      <p  id="manifesto_p">Manifesto</p>
        <p>Esse é o momento para você que se reiventa todo dia.</p>
 
-       <p>É para você que gosta de um visual clássico, mas sabe o momento de dar um corte novo nos cabelos.</p>
+       <p>É para você que gosta de um novo visual e arrisca penteados e cortes de cabelo sem medo de errar.</p>
        
-       <p>É para você que encara o espelho de frente e passa máscara de cílios para destacar o brilho dos seus olhos.</p>
-
        <p>É para você que sabe o momento de passar um blush e entende o poder de um batom, de um sorriso, de um novo tom.</p>
 
        <p>É para você que não se intimida com o corre-corre da vida e pinta as unhas toda semana para marcar os momentos com o seu toque colorido.</p>
 
        <p>É para você que tropeça. Mas ergue a cabeça, passa o seu melhor perfume e dá o passo seguinte, cheia de firmeza.</p>
-       <p>para você que, em nome da elegância, sabendo que não é heroína,&nbsp;entende a beleza de ser mulher.</p>
 
+       <p>É para você que, em nome da elegância, sabendo que não é heroína, entende a beleza de ser mulher.</p>
        <p>Afinal, ser mulher reúne mais que momentos heroicos.</p>
+
        <p>Reúne os melhores momentos.</p>
        <p>blink.me. O seu momento.</p>
     </div>
@@ -371,10 +387,7 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
              <div class="col-md-7" style="    margin-top: 100px;
     padding-right: 50px;">
                 <p style="    font-size: 50px;">MORUMBI TOWN</p>
-                <p>Central, bem localizado e com um conceito exclusivo de um dos maiores grupos de
-                  shoppings do mundo, o Morumbi Town combina perfeitamente com a blink.me. Atrai
-                  não apenas os moradores da região, mas também estudantes e profissionais que
-                  frequentam a região. É um local de entretenimento, compras e diversão.
+                <p>Central, bem localizado e com um conceito exclusivo de um dos maiores grupos de shoppings do mundo, o Morumbi Town combina perfeitamente com a blink.me. Atrai não apenas os moradores da região, mas também estudantes e profissionais que frequentam a região. É um local de entretenimento, compras e diversão.
                  <br>
                  <img src="<?php echo base_url('public/img/morumbi-shopping.png');?>" style="    width: 150px;margin-top: 10px;">
                 </p>
@@ -387,7 +400,7 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
                <img src="<?php echo base_url('public/img/point.png');?>" style="    float: left;margin-right: 10px;">
                <p style="float: left;">ENDEREÇO:<br>
                    Av. Giovanni Gronchi, 5930<br>
-                   Vila Andrade - São Paulo - SP , Shopping Morumbi<br>
+                   Vila Andrade - São Paulo - SP , Shopping Morumbi Town<br>
                    1º Piso. Tel.: (11) 2503-9527.
                </p>
                <br style="clear:both"><br style="clear:both">
@@ -398,7 +411,7 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
                    Renata Nascimento<br>
                    Agência Viva<br>
                    30810662/30629980<br>
-                   &lt;renata@agenciaviva.com&gt;
+                   renata@agenciaviva.com
                </p>
             </div>
          </div>
@@ -428,7 +441,7 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
          </div>
       </footer>
 
-      </header>
+      
    
 
 </body></html>
