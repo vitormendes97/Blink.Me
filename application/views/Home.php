@@ -66,7 +66,7 @@ $(document).ready(function(){
 
                      <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Manifesto', '')" href="#manifesto" style="color:#fff; font-family: MyRiad;font-size: 19px;">MANIFESTO</a></li>
 
-                       <li><a class="ancora" href="#fotos" style="color:#fff; font-family: MyRiad;font-size: 19px;">FOTOS</a></li>
+                       <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Fotos', '')" href="#fotos" style="color:#fff; font-family: MyRiad;font-size: 19px;">FOTOS</a></li>
 
                      <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Contato', '')" href="#contato" style="color:#fff; font-family: MyRiad;font-size: 19px;">CONTATO</a></li>
                   </ul>
@@ -95,7 +95,7 @@ $(document).ready(function(){
                      <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Cadastre-se', '')" href="#cadastrese">CADASTRE-SE</a></li>
                         <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Blinkme-Club', '')" href="#club">BLINK ME CLUB</a></li>
                         <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Manifesto', '')" href="#manifesto">MANIFESTO</a></li>
-                        <li><a class="ancora" href="#fotos">FOTOS</a></li>
+                        <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Fotos', '')" href="#fotos">FOTOS</a></li>
                         <li><a class="ancora" onClick="ga('send', 'event', 'Menu', 'Contato', '')" href="#contato">CONTATO
                         </a></li>
                      </ul>
@@ -125,11 +125,11 @@ $(document).ready(function(){
                             </div>
            <form action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
                             <div class="row select-area">
-                               <div class="col-md-6 col-xs-9">
+                               <div class="col-md-6 col-xs-9" style="padding-right: 3%;">
                               <p style="color:black;font-family: MyRiad;text-align: right;">Escolha seu prêmio  :</p>
                                 
                               </div>
-                              <div class="col-md-6 col-xs-3">
+                              <div class="col-md-6 col-xs-3" style="padding-left: 0;">
                                  <select id="select-form" name="MMERGE3">
                                      <option value="Nenhum">Selecione</option>
                                     <option value="Necessaire">Necessaire</option>
@@ -170,9 +170,9 @@ $(document).ready(function(){
                                 <p style="font-size: 60px;">VOUCHER de desconto</p>
                                 <p style="font-family: myRiad;    font-size: 19px;
     padding-right: 30px;">Cadastre-se e&nbsp;ganhe uma necessaire exclusiva&nbsp;blink.me, ou faça suas unhas ficarem
-                          incríveis no nosso salão. E mais:&nbsp;aproveite uma semana inteira com 10% de desconto
+                          incríveis no nosso salão. E mais:&nbsp;aproveite uma semana inteira com 15% de desconto
                           em todos os produtos e serviços!
-                          *Promoção válida para os 100 primeiros cadastrados que visitarem nossa loja entre os dias 5 e 11 de dezembro.</p>
+                          *Promoção válida para os 100 primeiros cadastrados que visitarem nossa loja entre os dias 10 e 16 de dezembro.</p>
                              </div>
                         </div>
                         
@@ -332,7 +332,7 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
                     <p style="color:#000;font-size:30px;" id="vantagens">VANTAGENS</p>
                      <dl class="dl-horizontal lista-vertical" style="background: #F2A68B; padding:4%;margin-bottom: 0; width:100%;">
                          
-                         <dd><span style="color:#fff;">&gt;</span> 15% DE DESCONTO EM TODA LOJA</dd>
+                         <dd><span style="color:#fff;">&gt;</span> DESCONTO EM TODA LOJA</dd>
                        </dl>
 
                        <dl class="dl-horizontal lista-vertical" style="background: #F28761; padding:4%;margin-bottom:0;width:100%;">
@@ -397,21 +397,22 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
                <p style="    font-size: 35px;
     margin-top: 60px;">INFORMAÇÕES</p>
                
-               <img src="<?php echo base_url('public/img/point.png');?>" style="    float: left;margin-right: 10px;">
+               <img src="<?php echo base_url('public/img/point.png');?>" style="float: left;margin-right: 10px;">
                <p style="float: left;">ENDEREÇO:<br>
                    Av. Giovanni Gronchi, 5930<br>
                    Vila Andrade - São Paulo - SP , Shopping Morumbi Town<br>
                    1º Piso. Tel.: (11) 2503-9527.
                </p>
                <br style="clear:both"><br style="clear:both">
-               <img src="<?php echo base_url('public/img/msg.png');?>" style="    float: left;margin-right: 10px;">
-               <p style="float: left;">CONTATOS:<br>
-                   Administração: 11 3740.6940<br>
+               <img src="<?php echo base_url('public/img/msg.png');?>" style="float: left;margin-right: 10px;">
+               <p style="float: left;line-height: 100%;">CONTATOS:<br><br>
+                   Administração: 11 3740.6940<br><br>
                    Assessoria de Imprensa Blink.Me:<br>
+                    11 3081.0662 | 11 3062.9980<br><br>
                    Renata Nascimento<br>
-                   Agência Viva<br>
-                   30810662/30629980<br>
-                   renata@agenciaviva.com
+                   renata@agenciaviva.com<br>
+                   Agência Viva
+                   
                </p>
             </div>
          </div>
