@@ -9,12 +9,17 @@
   <script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
   <!-- Bootstrap -->
   <script type="text/javascript" src="<?php echo base_url('/public/bootstrap/js/bootstrap.js'); ?> " ></script>
+  <script type="text/javascript" src="<?php echo base_url('/public/js/apprise.min.js') ?>"></script>
+  <link rel="stylesheet" href="<?php echo base_url('/public/css/apprise.min.css') ?>" type="text/css" />
+
   <script type="text/javascript" src="<?php echo base_url('/public/js/function.js'); ?>"></script>
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/bootstrap/css/bootstrap.css'); ?> ">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_desktop.css'); ?> ">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_mobile.css'); ?> ">
   <!--<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_large.css'); ?> ">-->
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/fontawsome/css/font-awesome.css'); ?> ">
+
+
 </head>
 
 <body>&#65279;<script>
@@ -123,7 +128,7 @@ $(document).ready(function(){
                                             <p class="Reklame-font" style="color:#000;">Vem ai um momento único</p>
                                     </div>
                             </div>
-           <form action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+           <form action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" id="subscribe_form">
                             <div class="row select-area">
                                <div class="col-md-6 col-xs-9" style="padding-right: 3%;">
                               <p style="color:black;font-family: MyRiad;text-align: right;">Escolha seu prêmio  :</p>
@@ -131,7 +136,7 @@ $(document).ready(function(){
                               </div>
                               <div class="col-md-6 col-xs-3" style="padding-left: 0;">
                                  <select id="select-form" name="MMERGE3">
-                                     <option value="Nenhum">Selecione</option>
+                                     <option value="0">Selecione</option>
                                     <option value="Necessaire">Necessaire</option>
                                      <option value="Serviço de mão">Serviço</option>
                                  </select>
@@ -146,7 +151,7 @@ $(document).ready(function(){
                             <div class="row">
                                     <div class="col-md-12">
                                              <input type="email" id="input-email" name="EMAIL" class="form-control input-class" required="required" placeholder="Email" >
-                                              <input type="submit" onClick="ga('send', 'event', 'Home', 'Cadastre-se', '')" style="font-family:MyRiad" class="btn btn-default btn-custom" id="btn-cadastrar" value="Cadastre-se">
+                                              <input type="submit" onClick="ga('send', 'event', 'Home', 'Cadastre-se', ''); verificarPremioModal();" style="font-family:MyRiad" class="btn btn-default btn-custom" id="btn-cadastrar" value="Cadastre-se">
                                     </div>
                             </div>
           </form>   
@@ -441,8 +446,5 @@ associadas do blink.me club terá acesso a uma área totalmente personalizada do
               </div>
          </div>
       </footer>
-
-      
-   
 
 </body></html>

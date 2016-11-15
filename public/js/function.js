@@ -21,12 +21,39 @@ $(window).on('resize', function() {
 });
 
 
-$(window).on('resize', function() {
-        
-        if ($(window).width() < 1360){
-            
-        }
-});
+
 
 $(document).ready(function(){
+    verificarPremio();
 });
+
+
+
+function verificarPremio()
+{
+
+    $("#subscribe_form").submit(function(e){
+
+         var select = Number($("#select-form").val());
+        if(select == 0)
+        {
+
+           return false;
+        }
+        else{
+              return true;
+        }
+    });
+}
+
+function verificarPremioModal()
+{
+     var select = Number($("#select-form").val());
+     var buttom = $("#btn-cadastrar");
+
+     if(select == 0)
+     {
+        apprise("Você esqueceu de selecionar o seu prêmio.");
+     }
+    
+}

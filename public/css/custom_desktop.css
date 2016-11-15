@@ -422,3 +422,14 @@ body{
 #col-studio{
 	margin-left: -22%;
 }
+
+.custom_modal{
+	background:#F15922;
+}
+
+#myModalLabel{
+	width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
