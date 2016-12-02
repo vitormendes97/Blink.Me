@@ -53,4 +53,14 @@ $route['default_controller'] = 'Home/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-
+$route['site'] = 'Site/home';
+$route['site/lab'] = 'Site/lab';
+$route['site/contato'] = 'Site/contato';
+$route['site/club'] = 'Site/club';
+$route['site/atelier'] = 'Site/atelier';
+$route['site/loja'] = 'Site/loja';
+$route['site/club/cadastro'] = 'Site/loja';
+$route['site/cosmetics'] = 'Site/cosmetics';
+$route['site/nails'] = 'Site/nails';
+$route['site/makeup'] = 'Site/makeup';
+$route['site/hair'] = 'Site/atelier';
