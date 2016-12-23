@@ -9,6 +9,8 @@
 	<!-- Bootstrap -->
 	<script type="text/javascript" src="<?php echo base_url('/public/bootstrap/js/bootstrap.js'); ?> " ></script>
 	<script type="text/javascript" src="<?php echo base_url('/public/js/function.js'); ?>"></script>
+	  <script type="text/javascript" src="<?php echo base_url('/public/js/apprise.min.js') ?>"></script>
+  <link rel="stylesheet" href="<?php echo base_url('/public/css/apprise.min.css') ?>" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/bootstrap/css/bootstrap.css'); ?> ">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_desktop.css'); ?> ">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('/public/css/custom_mobile.css'); ?> ">
