@@ -20,16 +20,11 @@ class Site extends CI_Controller {
 	 */
 	public function home()
 	{
-<<<<<<< HEAD
+
 	$this->load->view('site/head');
     $this->load->view('site/header');
     $this->load->view('site/home');
     $this->load->view('site/agendamento');
-=======
-		$this->load->view('site/head');
-    $this->load->view('site/header');
-    $this->load->view('site/home');
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
     $this->load->view('site/footer');
 	}
 
@@ -38,10 +33,7 @@ class Site extends CI_Controller {
     $this->load->view('site/head');
     $this->load->view('site/header');
     $this->load->view('site/lab');
-<<<<<<< HEAD
     $this->load->view('site/agendamento');
-=======
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
     $this->load->view('site/footer');
   }
 
@@ -50,10 +42,7 @@ class Site extends CI_Controller {
 		$this->load->view('site/head');
 		$this->load->view('site/header');
 		$this->load->view('site/contato');
-<<<<<<< HEAD
 		$this->load->view('site/agendamento');
-=======
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
 		$this->load->view('site/footer');
 	}
 
@@ -62,10 +51,7 @@ class Site extends CI_Controller {
 		$this->load->view('site/head');
 		$this->load->view('site/header');
 		$this->load->view('site/club');
-<<<<<<< HEAD
 		$this->load->view('site/agendamento');
-=======
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
 		$this->load->view('site/footer');
 	}
 
@@ -74,10 +60,7 @@ class Site extends CI_Controller {
 		$this->load->view('site/head');
 		$this->load->view('site/header');
 		$this->load->view('site/atelier');
-<<<<<<< HEAD
 		$this->load->view('site/agendamento');
-=======
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
 		$this->load->view('site/footer');
 	}
 
@@ -88,18 +71,13 @@ class Site extends CI_Controller {
 
 	public function cosmetics()
 	{
-<<<<<<< HEAD
+
 		$this->load->model('Assets');
 		$data['marcas'] = $this->Assets->carregarMarcasCosmetics();
 		$this->load->view('site/head');
 		$this->load->view('site/header');
 		$this->load->view('site/cosmetics',$data);
 		$this->load->view('site/agendamento');
-=======
-		$this->load->view('site/head');
-		$this->load->view('site/header');
-		$this->load->view('site/cosmetics');
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
 		$this->load->view('site/footer');
 	}
 
@@ -108,10 +86,7 @@ class Site extends CI_Controller {
 		$this->load->view('site/head');
 		$this->load->view('site/header');
 		$this->load->view('site/nails');
-<<<<<<< HEAD
 		$this->load->view('site/agendamento');
-=======
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
 		$this->load->view('site/footer');
 	}
 
@@ -120,10 +95,7 @@ class Site extends CI_Controller {
 		$this->load->view('site/head');
 		$this->load->view('site/header');
 		$this->load->view('site/makeup');
-<<<<<<< HEAD
 		$this->load->view('site/agendamento');
-=======
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
 		$this->load->view('site/footer');
 	}
 
@@ -132,10 +104,7 @@ class Site extends CI_Controller {
 		$this->load->view('site/head');
 		$this->load->view('site/header');
 		$this->load->view('site/hair');
-<<<<<<< HEAD
 		$this->load->view('site/agendamento');
-=======
->>>>>>> 79195e55a2b44ca30b837150009e7719203770dd
 		$this->load->view('site/footer');
 	}
 
