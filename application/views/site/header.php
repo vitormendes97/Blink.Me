@@ -1,5 +1,4 @@
-﻿<div class="sair"></div>
-
+<div class="sair"></div>
 <header>
     <nav class="navbar navbar-default visible-xs ">
         <div class="container-fluid col-sm-fluid">

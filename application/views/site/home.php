@@ -155,10 +155,10 @@
 
 
     <section>
-      <div class="row">
+      <div class="">
          <div class="col-md-12 col-xs-12" style="background:#FCAF17; height:5px;margin-top:10px;"></div>
       </div>
-      <div class="row">
+      <div class="">
          <div class="col-md-12 col-xs-12" style="background:#F15922;height: 15px;"></div>
       </div>
 

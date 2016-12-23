@@ -17,3 +17,5 @@
     <script type="text/javascript" src="<?php echo base_url('site/js/animations.js') ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('site/js/mansory.js') ?>"></script>
   </head>
+
+<body>
