@@ -184,8 +184,8 @@
        <p>blink.me. O seu momento.</p>
     </div>
     </section>
-
-    <section>
+    
+   <section>
       <div class="container-fluid">
         <div class="row" style="background:#A3A3A3;padding-bottom:4%;">
           <div id="promocao_area">
@@ -193,7 +193,7 @@
               <p class="text-center">Cadastre seu email e receba promoções exclusivas</p>
             </div>
             <div class="col-md-12 col-xs-12 text-center">
-              <form  action="//blinkme.us14.list-manage.com/subscribe/post?u=17a65ceea9f3b184b2e72f366&amp;id=1d3ebef362"
+              <form  action="http://blinkme.us14.list-manage.com/subscribe?u=17a65ceea9f3b184b2e72f366&id=ea675c54c9"
               class="form-inline"   method="POST" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
               <div class="form-group">
                 <input type="text" class="form-control" name="FNAME" placeholder="Nome">

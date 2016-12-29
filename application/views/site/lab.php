@@ -108,14 +108,15 @@ informações sobre a locação desse espaço, entre em contato conosco.</p>
               <p class="text-center">Cadastre seu email e receba promoções exclusivas</p>
             </div>
             <div class="col-md-12 col-xs-12 text-center">
-              <form class="form-inline">
+              <form  action="http://blinkme.us14.list-manage.com/subscribe?u=17a65ceea9f3b184b2e72f366&id=ea675c54c9"
+              class="form-inline"   method="POST" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
               <div class="form-group">
-                <input type="text" class="form-control"  placeholder="Nome">
+                <input type="text" class="form-control" name="FNAME" placeholder="Nome">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" class="form-control"name="EMAIL" placeholder="Email">
               </div>
-              <button type="submit" class="btn btn-default" onClick="ga('send', 'event', 'Home', 'Promocoes-exclusivas', 'Eu-quero');">EU QUERO</button>
+              <button type="submit" class="btn btn-default" onClick="ga('send', 'event', 'Home', 'Promocoes-exclusivas', 'Eu-quero')">EU QUERO</button>
             </form>
             </div>
           </div>
